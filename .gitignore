@@ -49,7 +49,6 @@ out/
 tmp/
 
 # Nested git repos (excluded from parent repo)
-aios/
 leadops-dashboard/
 agent-teams/AutoResearch/
 agent-teams/Playwright MCP/
