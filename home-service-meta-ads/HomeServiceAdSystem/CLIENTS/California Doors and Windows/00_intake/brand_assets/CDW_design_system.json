@@ -1,0 +1,240 @@
+{
+  "_comment": "DESIGN SYSTEM - California Doors and Windows. Drop this file into /CLIENTS/California Doors and Windows/00_intake/brand_assets/design_system.json. Fields marked verified:false should be confirmed before final production but are workable for round 1 prototyping.",
+
+  "client": "California Doors and Windows",
+  "legal_entity": "Maroh Enterprises, Inc.",
+  "version": "1.0-prototype",
+  "last_updated": "2026-04-26",
+
+  "canvas": {
+    "format": "Meta vertical 4:5",
+    "width": 1440,
+    "height": 1800,
+    "aspect_ratio": "4:5",
+    "platform_targets": ["Meta Feed", "Meta Reels", "Instagram Feed", "Instagram Stories"]
+  },
+
+  "zones": {
+    "_comment": "Standard ads use 4 zones, NO footer. Flyer mode opt-in only.",
+    "zone_1_logo": {
+      "purpose": "Logo placement",
+      "position": "top",
+      "height_pct": 8,
+      "rendering": "Canva composite — image AI never generates logo",
+      "asset_path": "/CLIENTS/California Doors and Windows/00_intake/brand_assets/CDW_logo.png",
+      "vector_status": "RASTER ONLY — request .svg/.ai/.eps from client before high-res production"
+    },
+    "zone_2_hero": {
+      "purpose": "Hero photo + headline overlay",
+      "position": "upper-middle",
+      "height_pct": 60,
+      "rendering": "AI-generated photo or real photo + headline",
+      "headline_treatment": "see typography.headline"
+    },
+    "zone_3_trust": {
+      "purpose": "Pull-quote OR credential line — ANONYMIZED for round 1",
+      "position": "lower-middle",
+      "height_pct": 20,
+      "rendering": "Brand-color band, contrasting text",
+      "max_words": 14,
+      "min_words": 6,
+      "anonymization_rule": "Use 'San Diego homeowner' / 'Pacific Beach homeowner' / 'Coronado client' — never named individuals until consent collected"
+    },
+    "zone_4_cta": {
+      "purpose": "Call to action, full-bleed",
+      "position": "bottom",
+      "height_pct": 12,
+      "rendering": "Brand-primary color bar, verb-led copy",
+      "max_words": 5,
+      "min_words": 2
+    },
+    "zone_5_footer_optional": {
+      "purpose": "Branded footer — FLYER MODE ONLY",
+      "default": "OFF for standard ads",
+      "rendering": "Canva composite from /03_assets/branded_footer.png — NEVER AI-generated"
+    }
+  },
+
+  "palette": {
+    "_comment": "From CDW logo + intake brief. HEX values eyedropped from raster logo — flagged unverified until cross-checked against vector or printed asset.",
+    "primary": {
+      "name": "CDW Yellow",
+      "hex": "#FFC72C",
+      "verified": false,
+      "verification_method_pending": "Eyedrop from vector logo OR sample from printed business card"
+    },
+    "secondary": {
+      "name": "CDW Red",
+      "hex": "#C8102E",
+      "verified": false,
+      "verification_method_pending": "Same as primary"
+    },
+    "neutral_dark": {
+      "name": "Black",
+      "hex": "#000000",
+      "verified": true
+    },
+    "neutral_light": {
+      "name": "White",
+      "hex": "#FFFFFF",
+      "verified": true
+    },
+    "usage_rules": {
+      "cta_bar_color": "primary (yellow)",
+      "trust_strip_band_color": "secondary (red)",
+      "headline_text_color": "neutral_dark on light backgrounds, neutral_light on dark/photo backgrounds",
+      "background_treatment": "photo with brand-color overlay at 0-15% opacity max — preserves photo authenticity"
+    }
+  },
+
+  "typography": {
+    "_comment": "Pulled from intake fonts.txt — flagged unverified until DevTools confirms on live site.",
+    "headline": {
+      "family": "Playfair Display",
+      "verified": false,
+      "weight": "bold or 700",
+      "size_range_px": "120-180",
+      "max_words": 9,
+      "min_words": 4,
+      "fallback": "Any bold serif if Playfair unavailable"
+    },
+    "sub_headline": {
+      "family": "Playfair Display",
+      "weight": "regular or 400",
+      "size_range_px": "60-90",
+      "optional": true
+    },
+    "trust_strip": {
+      "family": "Inter",
+      "verified": false,
+      "weight": "medium or 500",
+      "size_range_px": "44-60"
+    },
+    "cta": {
+      "family": "Inter",
+      "weight": "bold or 700",
+      "size_range_px": "80-110",
+      "case": "Title Case"
+    }
+  },
+
+  "photography_mood": {
+    "_comment": "Mood derived from logo creative cue (warm, hand-built, Californian craft) NOT from website hero (which uses corporate-showroom imagery). Logo wins; hero loses.",
+    "lighting": "natural daylight, warm cast, golden-hour preference for exteriors",
+    "lens": "35mm or 50mm — avoid wide-angle distortion that signals stock photography",
+    "subject_treatment": "real people, real worksites, hands-on craftsmanship — never showroom polish",
+    "color_grading": "warm, slightly desaturated, sun-and-state Californian feel",
+    "forbidden": [
+      "stock-photo corporate aesthetic",
+      "perfect-lit studio shots",
+      "AI-uncanny faces",
+      "pristine showroom imagery",
+      "luxury-mansion-only framing (CDW's customers are mid-to-upper-middle-class homeowners, not Beverly Hills only)"
+    ]
+  },
+
+  "compliance": {
+    "logo_locked": true,
+    "footer_locked_to_canva": true,
+    "license_disclosure_required": true,
+    "license_text_template": "Lic. CSLB 537570",
+    "license_placement": "Either zone 4 (CTA bar fine print) or zone 1 (under logo strip)",
+    "expired_offers_to_avoid": [
+      "Federal Section 25C Energy Efficient Home Improvement Credit (expired Dec 31, 2025) — DO NOT reference for 2026 creative"
+    ],
+    "live_financial_levers": [
+      "California Title 24 compliance",
+      "Monthly energy-bill savings (specific dollar amounts only if Mike confirms)",
+      "Coastal salt-air durability (region-specific)",
+      "EnerBank financing: 12-month same-as-cash, 0% APR 12-month, 0% APR 24-month, 6.99% 5-year",
+      "USDA Single Family Housing Repair Loans for low-income homeowners"
+    ],
+    "warranty_claim_status": "UNVERIFIED — brand-dealer status (Milgard / Anlin / Andersen) not yet confirmed. Avoid specific brand-dealer claims. Generic 'lifetime installation warranty' acceptable IF Mike confirms.",
+    "consent_status": "NOT COLLECTED — anonymize all testimonial trust strips for round 1"
+  },
+
+  "voice": {
+    "register": "warm, plainspoken, craftsman-direct — NOT polished marketing-agency",
+    "register_note": "The website hero copy ('Designed to Elevate Your Home', 'Precision-crafted... timeless design') is marketing-agency voice, NOT Mike's voice. Set tone from real customer testimonial cadence instead.",
+    "forbidden_phrases": [
+      "elevate",
+      "elevate your home",
+      "unlock",
+      "transform your home",
+      "leverage",
+      "premium experience",
+      "in the realm of",
+      "uncompromising",
+      "timeless design",
+      "precision-crafted",
+      "refined home solutions"
+    ],
+    "tone_anchors_from_real_customers": [
+      "no-pressure approach",
+      "professional manner",
+      "treats you like family",
+      "doing business with integrity",
+      "35 years",
+      "family-owned",
+      "Mike was easy to work with",
+      "fair when problems came up",
+      "he followed up well",
+      "you take the sting out of doing business with dirty contractors"
+    ],
+    "hero_voice_examples_from_reviews": [
+      "I appreciate your professional and 'no-pressure' approach from the start.",
+      "Mike was easy to work with and fair when it came to problems as the work progressed.",
+      "Thank you for all you have done for me. You take the sting out of doing business with dirty contractors.",
+      "I have dealt with many contractors during my working life, but never had I seen such teamwork as your people."
+    ]
+  },
+
+  "creative_wedges": {
+    "_comment": "Strategic positioning levers locked from intake — every concept should pull from at least one of these.",
+    "primary_wedge": {
+      "name": "Mike-as-hero",
+      "rationale": "Mike Marohnic is named in the majority of testimonials, has 35+ years CSLB-licensed (since 1988), and competing chains literally cannot replicate him. Mike-led concepts are priority. V1 of every concept defaults to Mike portrait."
+    },
+    "secondary_wedge": {
+      "name": "Anti-chain founder positioning",
+      "rationale": "Renewal by Andersen, Window World, Champion, American Vision all have FTC complaints, BBB volume, franchise lawsuits. CDW is family-owned, no franchise, owner-operated. Don't name competitors — contrast implicitly: '35 years, family-owned, no franchise, no high-pressure sales.' The 'no-pressure' phrase appears in customer reviews and is a direct shot at chains' tactics."
+    },
+    "tertiary_wedge": {
+      "name": "Coastal Californian craft",
+      "rationale": "Out-of-state chains can't speak credibly to coastal salt-air durability or Title 24 compliance. CDW operates exclusively in SoCal. Logo's sun-and-state imagery reinforces this."
+    }
+  },
+
+  "service_catalog_for_concept_scoping": {
+    "_comment": "Confirmed from live site — broader than just doors/windows. Concepts can target any of these but PRIORITIZE windows + doors for round 1 (highest volume + Mike's specialty).",
+    "primary_services": ["Windows", "Doors"],
+    "secondary_services": [
+      "Sunrooms",
+      "Patio Covers",
+      "Solar Patio Covers",
+      "Walk-In Tubs",
+      "Bathrooms",
+      "Cellulose Insulation",
+      "Radiant Barriers",
+      "Solar Attic",
+      "Metal Buildings",
+      "Retractable Screens (Shade Doctor SoCal)"
+    ]
+  },
+
+  "geography": {
+    "primary_metros": ["San Diego County", "Orange County"],
+    "extended_reach": ["Reachable Los Angeles areas"],
+    "headquarters": "23016 Lake Forest Dr STE D 386, Laguna Hills, CA 92653",
+    "secondary_office": "4475 Mission Blvd, Pacific Beach, San Diego, CA 92109",
+    "neighborhood_specifics_for_concepts": [
+      "Pacific Beach", "La Jolla", "Del Mar", "Coronado", "Mission Viejo",
+      "Laguna Hills", "Beverly Hills (award territory)", "Banker's Hill"
+    ]
+  },
+
+  "contact": {
+    "phone": "(888) 804-7775",
+    "email": "CaliDoorsandWindows60@gmail.com"
+  }
+}

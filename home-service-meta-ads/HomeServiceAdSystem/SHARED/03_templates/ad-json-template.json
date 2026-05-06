@@ -1,0 +1,92 @@
+{
+  "ad_id": "AD-[NN]_VAR-[A|B|C]",
+  "concept_ref": "CONCEPT-[NN]",
+  "ref_pattern": "REF-XXX",
+  "client": "[CLIENT NAME]",
+  "variation_axis": "[Axis A Hero Subject | Axis B Headline Framing | Axis C Photo Angle/Mood]",
+  "variation_axis_value": "[e.g., 'founder subject' or 'install subject' or 'offer artifact']",
+  "ai_generates": [
+    "zone_2 hero visual + headline + accent shapes",
+    "zone_3 trust strip with 4 elements + accent hairline dividers",
+    "zone_4 CTA block extending to canvas bottom"
+  ],
+  "composite_in_canva": [
+    "zone_1 logo top-left (real client PNG, 10 seconds)"
+  ],
+  "image_input_required": false,
+  "image_input_files": [],
+  "footer_policy": "NONE — standard Meta ad. Zone 4 full-bleed to bottom edge.",
+
+  "scene": {
+    "description": "[Full scene description per the json-prompt-generator skill — concept-specific, REF-driven layout, locked copy embedded]",
+    "subject": "[Hero subject specification per variation axis]",
+    "setting": "[Environment description grounded in client's geography/category]",
+    "action": "[Static or near-static — what the subject is doing]"
+  },
+
+  "style": {
+    "primary": "[e.g., 'editorial commercial portrait' or 'product still-life' or 'before/after split']",
+    "rendering_quality": "hyperrealistic",
+    "surface_textures": "[Specific textures relevant to subject — skin pores, fabric weave, paper fiber, wood grain, etc.]",
+    "lighting": "[Direction, color temp, quality — natural daylight ~5200K, etc.]"
+  },
+
+  "technical": {
+    "camera": {
+      "focal_length": "[35mm | 50mm | 85mm based on shot type]",
+      "aperture": "[f/2.8 | f/4 | f/5.6 based on depth-of-field need]",
+      "depth_of_field": "[shallow | moderate | deep]",
+      "angle": "[eye level, three-quarter overhead, low angle, etc.]"
+    },
+    "resolution": "1440x1800 mobile-first 4:5 vertical",
+    "rendering": "[Editorial finish, slight phone-photo realism, no heavy filter, etc.]"
+  },
+
+  "materials": {
+    "skin": "[If portrait — describe age, ethnicity, expression]",
+    "fabric": "[Describe wardrobe specifics matching client's brand uniform]",
+    "surfaces": "[Other tactile surface details]",
+    "transparency": "[If glass/window/door subject — describe optical character]"
+  },
+
+  "environment": {
+    "atmosphere": "[Indoor home, outdoor location, designed flat composition, etc.]",
+    "time": "[Time of day, season if relevant]",
+    "particles": "[Dust motes, steam, atmospheric haze if any]"
+  },
+
+  "composition": {
+    "perspective": "[Standard portrait, overhead three-quarter, head-on split, etc.]",
+    "framing": "Z-pattern within zones 2-4 only. Top 8% (zone 1) is clean negative space for Canva logo composite — render as natural continuation of the surrounding background, no placeholder box, no dashed outline, no white card, no visible zone marker. NO footer zone — zone 4 extends full-bleed to bottom edge of canvas.",
+    "subject_placement": "[Where in zone 2 the subject sits vs the headline block]",
+    "ui_elements": {
+      "zone_1_logo_placeholder": "Clean negative space 360x140 px top-left, 60px margin from edges — render this area as natural continuation of the surrounding background. NO placeholder box, NO dashed outline, NO white card, NO visible zone marker. The client logo will be composited in Canva post-generation; the AI pass should leave clean uninterrupted background here so the user does NOT have to erase a placeholder before compositing.",
+      "zone_2_hero_and_headline": "[CONCEPT-SPECIFIC DIRECTION: where the photo bleeds, where the accent shape sits, exact placement of headline text from copy_per_concept.md, exact placement of eyebrow if present, exact placement of attribution/modifier line, exact placement of subhead. Use locked copy verbatim — do NOT modify or rewrite.]",
+      "zone_3_trust_strip": "Horizontal row of 4 trust elements separated by 1px [PRIMARY ACCENT COLOR HEX] vertical hairlines, on a semi-transparent dark panel rgba(0,0,0,0.65). Uppercase tracked-out white sans-serif 18-20pt: '[ELEMENT 1 from copy]  |  [ELEMENT 2]  |  [ELEMENT 3]  |  [ELEMENT 4]'.",
+      "zone_4_cta_block_full_bleed": "Solid [CTA COLOR HEX] rounded rectangle CTA button with bold white type: '[CTA COPY from copy_per_concept.md]'. Centered horizontally with 8% canvas margin breathing room above and below. Block extends to bottom edge of canvas — NO reserved footer zone.",
+      "fine_print_if_offer_ad": "[Bottom of zone 2 in light grey 10pt: '[FINE PRINT from copy_per_concept.md]']"
+    }
+  },
+
+  "quality": {
+    "include": [
+      "[Specific quality bars relevant to this concept and variation]",
+      "Real-photo authenticity, not stock-polish",
+      "20-30% text coverage maximum",
+      "Z-pattern hierarchy within zones 2-4",
+      "Zone 1 rendered as clean negative space — uninterrupted background, no placeholder box, no dashed outline, no white card (logo composited in Canva post-generation)",
+      "Zone 4 full-bleed CTA without baked-in footer"
+    ],
+    "avoid": [
+      "[Specific failure modes for this concept]",
+      "Auto-generated logos in zone 1 (logo is composited in Canva post-generation; render clean negative space)",
+      "Any baked-in footer with phone/URL/address",
+      "Heavy filter or Instagram color grade",
+      "Stock-photo polish",
+      "Plastic AI skin (if portrait)",
+      "Warped fingers or hands",
+      "Gibberish micro-text"
+    ],
+    "reference_standard": "Inspired by REF-XXX structure. Visual quality bar: [list 2-3 reference photographers, campaigns, or design systems]"
+  }
+}

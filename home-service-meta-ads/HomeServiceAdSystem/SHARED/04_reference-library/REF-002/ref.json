@@ -1,0 +1,77 @@
+{
+  "image_type": "advertisement",
+  "objects": [
+    {
+      "type": "text",
+      "content": "TIRED OF YOUR OLD WINDOWS?",
+      "position": "top_center",
+      "color": "black",
+      "style": "bold, uppercase"
+    },
+    {
+      "type": "text",
+      "content": "GET 40% OFF WITH OUR SPRING SPECIAL",
+      "position": "below_header",
+      "color": "red",
+      "style": "bold, uppercase"
+    },
+    {
+      "type": "window",
+      "label": "before",
+      "position": "left",
+      "frame_condition": "worn, dirty, aged",
+      "glass_condition": "slightly reflective, less clear",
+      "surroundings": {
+        "wall": "beige siding",
+        "reflections": "trees without leaves"
+      }
+    },
+    {
+      "type": "text_label",
+      "content": "BEFORE",
+      "position": "bottom_left",
+      "background_color": "yellow",
+      "text_color": "black"
+    },
+    {
+      "type": "window",
+      "label": "after",
+      "position": "right",
+      "frame_condition": "clean, new, white",
+      "glass_condition": "clear, reflective",
+      "features": "grid pattern on upper sash",
+      "surroundings": {
+        "wall": "beige siding",
+        "interior_visible": true
+      }
+    },
+    {
+      "type": "text_label",
+      "content": "AFTER",
+      "position": "bottom_right",
+      "background_color": "yellow",
+      "text_color": "black"
+    },
+    {
+      "type": "logo",
+      "name": "Google Business Review",
+      "position": "upper_right",
+      "elements": [
+        {
+          "type": "text",
+          "content": "Google Business Review"
+        },
+        {
+          "type": "rating",
+          "value": 5.0,
+          "scale": 5
+        },
+        {
+          "type": "stars",
+          "count": 5,
+          "color": "gold"
+        }
+      ]
+    }
+  ]
+}

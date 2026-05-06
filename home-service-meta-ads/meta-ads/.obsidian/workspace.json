@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "f6470b3b5a76ac98",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d79e926d32a1055",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0dc32dc7c3d487b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6199e2d569eb5780",
+    "type": "split",
+    "children": [
+      {
+        "id": "3f225b2608c9e051",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41f16f3fa23b5888",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c562c5e1ba50dcf9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "30578fe6d1d958b0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5e6ca89d855c24f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "dcb761ae8d068414",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20c6d09d2fefb1fb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "raw/meta-ads-campaign-skill-freebie.pdf.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for meta-ads-campaign-skill-freebie.pdf"
+            }
+          },
+          {
+            "id": "bf9a5777d66c129d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "raw/meta-ads-campaign-skill-freebie.pdf.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from meta-ads-campaign-skill-freebie.pdf"
+            }
+          },
+          {
+            "id": "143fa1e125f07dc9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "21d07bbdc5c5d719",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "958ec9393e3a8a0d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "raw/meta-ads-campaign-skill-freebie.pdf.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of meta-ads-campaign-skill-freebie.pdf"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c0dc32dc7c3d487b",
+  "lastOpenFiles": [
+    "raw/meta-ads-campaign-skill-freebie.md",
+    "raw/I Tested 1,000+ Facebook Ads, These 3 Print For Home Service Businesses.md",
+    "raw/meta-ads-campaign-skill-freebie.pdf",
+    "wiki/entities/kyle-whitrow.md",
+    "wiki/sources/meta-ads-campaign-skill-freebie.md",
+    "wiki/concepts/creative-testing-strategy.md",
+    "raw/meta-ads-campaign-skill-freebie.pdf.md",
+    "CLAUDE.md",
+    "wiki/concepts/ad-targeting-settings.md",
+    "wiki/concepts/meta-api-automation.md",
+    "wiki/concepts/campaign-metrics.md",
+    "wiki/concepts/lead-form-setup.md",
+    "wiki/concepts/owner-intro-video-ad.md",
+    "wiki/concepts/campaign-setup-settings.md",
+    "wiki/concepts/ad-copy-framework.md",
+    "wiki/entities/home-service-accelerator.md",
+    "wiki/concepts/ad-creative-types.md",
+    "wiki/entities/jonas-olson.md",
+    "wiki/entities/steve-hunsaker.md",
+    "wiki/entities/spencer-claeys.md",
+    "wiki/entities/daniel-dimsey.md",
+    "wiki/sources/i-tested-1000-facebook-ads.md",
+    "wiki/sources/facebook-ads-strategy-blew-up-home-service.md",
+    "raw/How To Actually Run Facebook Ads 2025 (Home Service Businesses).md",
+    "wiki/sources/1-17m-year-facebook-ads-strategy.md",
+    "raw/Do Facebook Ads Work for Home Service Companies?.md",
+    "Untitled.md",
+    "raw/assets",
+    "raw",
+    "wiki/synthesis",
+    "wiki/sources",
+    "wiki/concepts",
+    "wiki/entities",
+    "wiki"
+  ]
+}

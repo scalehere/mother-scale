@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "type": "stdio",
+      "command": "/Users/ashenafew/Desktop/SCALE/scale-lead-ops/node_modules/.bin/playwright-mcp",
+      "args": [
+        "--storage-state=/Users/ashenafew/Desktop/SCALE/scale-lead-ops/.auth/session.json"
+      ],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "1769cc954c31c809",
+    "type": "split",
+    "children": [
+      {
+        "id": "8cc3b82eb63f2954",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7de10d8feb9918df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "claude-ghl-workflow-skill/SKILL 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SKILL 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "71876bed43fff3f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "87e5452cb020fe06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f74ba646af1804c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f7c2f258fb6b1c7e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1501fa98192a29fa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6f5b92161dbc8056",
+    "type": "split",
+    "children": [
+      {
+        "id": "da9b13c1ba4b9b72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47fc08e5da05a00b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "claude-ghl-workflow-skill/SKILL 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for SKILL 3"
+            }
+          },
+          {
+            "id": "37fd6273df754862",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "claude-ghl-workflow-skill/SKILL 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from SKILL 3"
+            }
+          },
+          {
+            "id": "eb5e4905ff22ab85",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3fd72d2abc6f82a8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "8cc1a5ed205d62f6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "claude-ghl-workflow-skill/SKILL 3.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of SKILL 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7de10d8feb9918df",
+  "lastOpenFiles": [
+    "claude-ghl-workflow-skill/SKILL 2.md",
+    "claude-ghl-workflow-skill/SKILL 1.md",
+    "claude-ghl-workflow-skill/SKILL 3.md",
+    "claude-ghl-workflow-skill",
+    "wiki/entities/hire-ghl-developer.md",
+    "wiki/entities/ryan-howell.md",
+    "wiki/concepts/ghl-workflow-troubleshooting.md",
+    "wiki/concepts/ghl-workflow-chaining.md",
+    "wiki/concepts/ghl-workflow-recipes.md",
+    "wiki/sources/ghl-workflow-ai-builder-docs.md",
+    "wiki/sources/ghl-intro-workflows-automations.md",
+    "wiki/sources/ghl-workflows-crm-automation-guide.md",
+    "wiki/sources/ghl-getting-started-workflows.md",
+    "wiki/sources/ghl-workflow-ai-text-blog.md",
+    "raw/articles/GoHighLevel Workflows The Ultimate Guide to CRM Automation.md",
+    "raw/articles/Workflow AI Builder Generate and Edit Workflows with AI.md",
+    "raw/articles/Introduction to Workflows and Automations in HighLevel.md",
+    "raw/articles/Did You Know Workflow AI Can Create Workflows For You Just Using Text?.md",
+    "raw/articles/Getting Started with Workflows.md",
+    "raw/videos/GoHighLevel Tutorial Ultra In-Depth FREE COURSE.md",
+    "wiki/concepts/missed-call-text-back.md",
+    "wiki/concepts/ghl-fast-five.md",
+    "wiki/concepts/ghl-agency-view.md",
+    "wiki/concepts/ghl-saas-configurator.md",
+    "wiki/concepts/ghl-social-media-automations.md",
+    "wiki/sources/ghl-ultra-indepth-free-course.md",
+    "wiki/sources/ghl-ultimate-automations-4hr-course.md",
+    "raw/articles",
+    "articles",
+    "wiki/sources",
+    "wiki/outputs",
+    "wiki/entities",
+    "wiki/concepts",
+    "wiki",
+    "raw/assets",
+    "raw/data"
+  ]
+}

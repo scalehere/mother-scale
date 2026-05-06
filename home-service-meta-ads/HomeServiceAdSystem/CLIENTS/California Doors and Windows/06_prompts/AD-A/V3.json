@@ -1,0 +1,171 @@
+{
+  "ad_id": "AD-A_VAR-V3",
+  "concept_ref": "CONCEPT-A",
+  "concept_title": "Mike's Hands-On 35 Years",
+  "ref_pattern": "REF-001",
+  "ref_pattern_source": "Brothers Home Improvement testimonial-led layout (installer left + Google review right + 30 YEARS green ribbon + brand wordmark lockup + 5 yellow stars)",
+  "client": "California Doors and Windows",
+  "mode": "CLONE_MODE",
+  "clone_adherence_target_pct": 99,
+  "variation_axis": "Hero Photo Subject (left ~50% of frame)",
+  "variation_axis_value": "V3 — AI-generated finished-install subject (anonymous installer completing the install, slightly different angle and moment from V2). NO face, NO Mike portrait, NO Path D.",
+
+  "ai_generates": [
+    "zone_2 left ~50% — anonymous installer completing a finished window install (final gestures: stepping back, dusting hands, last shim, final sealant pass) — NO face, NO recognizable person",
+    "zone_2 right ~50% — RENDERED Google review card (Path 2 — verbatim Zoran K. text, anonymized attribution) — IDENTICAL to V1 and V2",
+    "background — outdoor residential exterior, warm Californian craft mood",
+    "5-yellow-star row above logo lockup (zone 4 area)",
+    "circular 35 YEARS green-ribbon-style anniversary badge (CDW-palette swap — bottom-left)",
+    "compliance fine-print line at bottom edge"
+  ],
+  "composite_in_canva": [
+    "zone_1 — REF-001 has no top logo strip; render the top of frame as clean uninterrupted background (no placeholder, no dashed outline, no white card, no visible zone marker)",
+    "bottom-right wordmark lockup — CDW logo + 'Windows & Doors' subcategory line (Canva composite, NEVER AI-generated)"
+  ],
+  "image_input_required": false,
+  "reference_photo_attachment_required": false,
+  "reference_photo_path": null,
+  "image_input_files": [],
+  "post_production_notes": "V3 hero is fully AI-generated — no real photo attachment, no Path D. The anonymous installer is generic/non-identifiable; the install scene is generic Southern California residential exterior with no recognizable address. This variation MUST NOT claim to depict an actual CDW install or a named individual. CDW logo composited in Canva post-generation in the bottom-right wordmark lockup zone — never AI-generated.",
+
+  "footer_policy": "NONE — standard Meta ad. Frame extends full-bleed to bottom edge.",
+
+  "scene": {
+    "description": "Outdoor residential exterior in warm Californian late-morning light. Subject occupies the left ~50% of the frame: an anonymous installer in warm casual workwear and tool belt, three-quarter-back-view, completing a finished window install — last shim, final sealant pass, stepping back to inspect, OR wiping hands clean. The freshly installed window is visible at the install point with its clean fresh-fabricated frame and divided-light or single-light glass clearly seated in the wall. NO face visible. Right ~50% of frame is occupied by a clean white rendered Google review card overlaying the same exterior background — IDENTICAL to V1 and V2. A circular 35 YEARS anniversary ribbon-seal sits in the bottom-left corner. A row of 5 yellow stars sits across the bottom-right above clean negative space where the CDW wordmark lockup will be composited in Canva post-generation — render that area as natural continuation of the surrounding exterior background, no placeholder box, no dashed outline, no white wordmark zone marker.",
+    "subject": "Anonymous installer (NO recognizable face). Three-quarter-back-view, completing a finished install. Workwear and tool belt visible. Body language reads as 'job done' — final inspection, hands dusted, clean step-back. The finished window is visible at the install point as an outcome cue.",
+    "setting": "Southern California residential exterior — wall around a freshly installed window, beige/stucco siding visible, no recognizable house number, no readable street sign, no specific neighborhood signage.",
+    "action": "Final-step / completion gesture — stepping back to inspect, wiping hands, final sealant pass, last shim, OR closing the window for the first time. Static / near-static. The framing shifts the moment from V2's mid-install to V3's just-finished."
+  },
+
+  "style": {
+    "primary": "editorial outcome / finished-install documentary still — clones REF-001's installer-with-window composition; subject in completion mode, finished window visible as outcome cue",
+    "rendering_quality": "hyperrealistic photographic, slight phone-photo realism, no Instagram filter, no luxury-mansion gloss",
+    "surface_textures": "workwear fabric weave, tool-belt leather, fresh-fabricated window frame, clean glass surface, beige stucco siding, sealant bead at frame perimeter",
+    "lighting": "natural late-morning Californian daylight ~5200K, warm cast — IDENTICAL to V1 and V2 lighting"
+  },
+
+  "technical": {
+    "camera": {
+      "focal_length": "50mm equivalent",
+      "aperture": "f/4 — subject and finished window in focus; review card on right remains crisp and readable",
+      "depth_of_field": "moderate",
+      "angle": "eye level, slightly off-axis to match REF-001's framing — angle subtly different from V2 to read as a different moment"
+    },
+    "resolution": "1440x1800 mobile-first 4:5 vertical (Meta Feed / Reels / IG Feed)",
+    "rendering": "Editorial finish, real-photo authenticity, no heavy color grade. Warm Californian craft palette per CDW design system."
+  },
+
+  "materials": {
+    "skin": "Hands visible if naturally framed; no facial features rendered (back-view or three-quarter-back-view). Avoid plastic AI skin on visible hands; avoid warped fingers.",
+    "fabric": "Long-sleeve work shirt in warm neutral (off-white, weathered red, or soft black per CDW palette). Standard work pants. Tool belt visible.",
+    "surfaces": "Fresh-fabricated window frame seated in opening; clean glass surface; sealant bead at frame perimeter; beige stucco siding.",
+    "transparency": "Window glass shows light reflection consistent with daylight scene; subtle reflection of installer's silhouette is acceptable; no jarring artificial highlights."
+  },
+
+  "environment": {
+    "atmosphere": "Outdoor residential exterior; mid-to-upper-middle-class Southern California neighborhood feel.",
+    "time": "Late morning — warm but pre-noon shadow direction (matches V1 and V2).",
+    "particles": "Faint sun-warmed atmospheric haze acceptable; no dust storms, no smoke."
+  },
+
+  "composition": {
+    "perspective": "Three-quarter-back-view of installer at left half — clones REF-001's framing; finished install visible as outcome cue.",
+    "framing": "Left ~50% installer-in-completion-gesture photo · Right ~50% rendered Google review card overlay. NO top logo strip. Circular 35 YEARS ribbon-seal in bottom-left corner. Row of 5 yellow stars across bottom-right above clean negative space where the CDW wordmark lockup will be composited in Canva post-generation — that area renders as natural continuation of the surrounding exterior background, no placeholder box, no dashed outline, no white wordmark zone marker. Frame extends full-bleed to bottom edge.",
+    "subject_placement": "Subject occupies left ~50%; back/torso mid-frame; arms extended toward window or held at chest height in inspection gesture; freshly installed window visible at install point.",
+    "ui_elements": {
+      "zone_1_logo_placeholder": "NONE on this clone. REF-001 has no top logo strip.",
+      "zone_2_hero_left_50pct": "Anonymous installer (back-view / three-quarter-back) completing a finished window install in a residential exterior context. Workwear and tool belt visible. Warm Californian late-morning light. NO face. The freshly installed window is visible at the install point as an outcome cue.",
+      "zone_2_review_card_right_50pct": "RENDERED Google review card per Path 2 spec — IDENTICAL TO V1/V2. White card on the photo background, occupying full right ~50%. Top-left of card: neutral generic profile-avatar circle (NO letter). Top-left attribution: 'San Diego homeowner'. Date stamp: '4 weeks ago'. Top-right: Google 'G' logo. 5 yellow stars row above body. Body text: verbatim Zoran K. review per Path 2 spec.",
+      "anniversary_badge_bottom_left": "Circular ribbon-seal anniversary badge, ~280-320px diameter, bottom-left corner with 60-80px margin. '35 YEARS' in bold sans-serif white type on CDW primary-yellow (#FFC72C) ribbon ground; outer ribbon ring carries 'CALIFORNIA DOORS & WINDOWS · SINCE 1988'. IDENTICAL to V1 and V2.",
+      "star_row_above_logo_lockup": "Single horizontal row of 5 yellow stars (#FFC72C), centered above the bottom-right wordmark lockup zone. IDENTICAL to V1 and V2.",
+      "wordmark_lockup_bottom_right": "Clean negative space in the bottom-right corner — render this area as natural continuation of the surrounding exterior background (NO placeholder box, NO dashed outline, NO white wordmark zone marker). The CDW logo + 'Windows & Doors' subcategory line will be composited in Canva post-generation. Agent 9 does NOT generate the logo. IDENTICAL to V1 and V2.",
+      "compliance_fine_print": "Bottom edge of frame, ~10-12pt soft-grey or off-white sans-serif: 'CSLB #537570 · Family-owned in Southern California since 1988.' IDENTICAL to V1 and V2."
+    }
+  },
+
+  "review_card": {
+    "execution_path": "path_2_rendered",
+    "user_attachment_required": false,
+    "card_visual_spec": {
+      "card_background": "white card on the photo exterior background",
+      "card_aspect_ratio": "matches REF-001's review-card occupancy of the right ~50% of the frame",
+      "platform_logo_position": "top-right of card",
+      "platform_logo": "Google 'G' multicolor logo",
+      "profile_avatar_position": "top-left of card",
+      "profile_avatar_treatment": "neutral generic circle — solid gray or solid muted blue color, NO letter, NO initial. May render as a generic person silhouette icon. DO NOT render an initial letter.",
+      "reviewer_display_name": "San Diego homeowner",
+      "reviewer_display_name_position": "to the right of the avatar, top-left card area",
+      "city_subtitle_line": "NONE — do NOT render a separate city subtitle line",
+      "date_stamp": "4 weeks ago",
+      "star_row": "5 yellow stars (#FFC72C), single horizontal row above body text",
+      "body_text_weight_size": "card standard body-text weight and size — readable at 100% zoom on Meta feed mobile"
+    },
+    "spec": {
+      "verbatim_review_body_preferred_full_text": "We had doors replaced about 6 years ago by a 'virtual' outfit and it turned into constant repairs, service calls, and headaches once the warranty ended. This time we wanted a real local company... when you call, a real person picks up and gets things handled. No 'press 1, press 4, press 8' maze.",
+      "truncation_fallback_if_needed": "We had doors replaced about 6 years ago by a 'virtual' outfit and it turned into constant repairs... This time we wanted a real local company... when you call, a real person picks up and gets things handled. No 'press 1, press 4, press 8' maze.",
+      "visual_focal_point_sentence": "When you call, a real person picks up and gets things handled. No 'press 1, press 4, press 8' maze.",
+      "focal_point_treatment": "Visual hierarchy of the card should make the focal-point sentence the most readable focal point.",
+      "verbatim_accuracy_lock": "Path 2 verbatim accuracy lock — review body and reviewer details are EXACT, not paraphrased. If at generation time any rendered detail differs from spec, the variation FAILS Agent 9 review and must be regenerated."
+    },
+    "anonymization_compliance": "Display name 'San Diego homeowner' + neutral generic avatar circle (no letter, no initial) complies with the CDW Round 1 testimonial anonymization lock per system designer's finalized decision 2026-04-26. Real source reviewer on file is Zoran Knezevic; the displayed attribution does NOT carry his name, initials, or any identifying detail. Review body text remains verbatim."
+  },
+
+  "locked_copy_v1_v2_v3_identical": {
+    "headline": "NONE — REF-001 has no separately written headline. The rendered Zoran K. Google review card serves as the headline area.",
+    "sub_headline": "NONE",
+    "trust_strip": "NONE as a separate text element — the rendered Google review card itself IS the trust strip.",
+    "cta": "NONE",
+    "compliance_fine_print": "CSLB #537570 · Family-owned in Southern California since 1988."
+  },
+
+  "clone_mode_swap_log": {
+    "ref_001_installer_person": "V3 swap = anonymous installer in completion gesture, AI-gen, NO face, NO Path D — outcome / finished-install hero subject",
+    "ref_001_reviewer_name_tony_wallace": "Render as 'San Diego homeowner' — fully anonymized per CDW Round 1 lock",
+    "ref_001_review_body": "Verbatim Zoran K. Google review (Path 2 rendered)",
+    "ref_001_platform_mark_google_g": "Google 'G' logo retained",
+    "ref_001_anniversary_badge_30_years": "35 YEARS — CDW yellow replaces Brothers green",
+    "ref_001_brand_wordmark_brothers_home_improvement": "California Doors & Windows + 'Windows & Doors' subcategory (Canva composite)",
+    "ref_001_brand_colors_brothers_green_white": "CDW palette — sun-yellow + warm red + off-white + soft black",
+    "ref_001_phone_business_identity": "NOT printed; CSLB compliance line carries business identity"
+  },
+
+  "one_pct_flex_used": {
+    "structural_flex_applied": false,
+    "flex_notes": "No structural 1% flex used. Clone is at 99% structural adherence."
+  },
+
+  "quality": {
+    "include": [
+      "Real-photo authenticity, not stock-polish",
+      "Anonymous installer — back-view or three-quarter-back-view, NO face",
+      "Finished window visible at the install point as outcome cue",
+      "Review card rendered with VERBATIM Zoran K. text per Path 2 spec — IDENTICAL TO V1/V2",
+      "Visual focal-point sentence lands prominently",
+      "Profile avatar is a NEUTRAL generic circle — no letter",
+      "Display name reads 'San Diego homeowner'",
+      "5-yellow-star row matches REF-001 placement — IDENTICAL TO V1/V2",
+      "35 YEARS ribbon-seal in bottom-left — IDENTICAL TO V1/V2",
+      "Bottom-right wordmark zone rendered as clean negative space (uninterrupted background, no placeholder box, no dashed outline, no white card) — logo composited in Canva post-generation",
+      "Compliance fine print legible at bottom edge",
+      "Warm Californian craftsman mood",
+      "Subject pose / moment subtly different from V2 so the variation reads as a distinct moment, not noise"
+    ],
+    "avoid": [
+      "Rendering a recognizable face on the installer (V3 must read as anonymous outcome/proof, NOT as a named person)",
+      "Claiming the imagery depicts an actual CDW install or a named individual",
+      "Auto-generating CDW logo / wordmark in the bottom-right zone",
+      "Auto-generating any top logo strip",
+      "Rendering the review-card avatar with an initial letter",
+      "Paraphrasing the review body — Path 2 verbatim accuracy lock",
+      "Adding a separate city subtitle line beneath 'San Diego homeowner'",
+      "Pose / framing identical to V2 — V3 must be a clearly different moment (completion vs. mid-install)",
+      "Plastic AI skin on visible hands, warped fingers, gibberish micro-text",
+      "Any 'Brothers Home Improvement' wordmark trace",
+      "Any banned phrase (elevate, transform, unlock, leverage, premium experience, in the realm of, uncompromising, timeless design, precision-crafted, refined home solutions, today only, bare 'lifetime warranty', 'starting from $X', generic 'energy efficient')",
+      "Any 25C / federal-tax-credit reference",
+      "Any brand-dealer claim (Milgard / Andersen / Anlin)",
+      "Heavy filter, luxury-mansion staging"
+    ],
+    "reference_standard": "Inspired by REF-001. Visual quality bar: warm outcome / completion documentary stills — installer-finishing-install editorial. Mood per CDW design system photography_mood block."
+  }
+}

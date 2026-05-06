@@ -1,0 +1,216 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - generic [ref=e11]:
+            - heading "All American Plumbing" [level=2] [ref=e15]:
+              - generic [ref=e16]: All American Plumbing
+            - heading "For all your Plumbing Services needs, 24/7" [level=3] [ref=e20]:
+              - generic [ref=e21]: For all your Plumbing Services needs, 24/7
+        - listitem [ref=e23]
+        - listitem [ref=e25]
+        - listitem [ref=e27]
+      - list:
+        - listitem
+        - listitem
+    - banner [ref=e29]:
+      - generic [ref=e30]:
+        - generic [ref=e32]:
+          - generic [ref=e36]:
+            - link " Facebook" [ref=e37] [cursor=pointer]:
+              - /url: https://www.facebook.com/allamericanplumbingsandiego
+              - text: 
+              - generic [ref=e38]: Facebook
+            - link " X" [ref=e39] [cursor=pointer]:
+              - /url: https://twitter.com/AllAmPlumbingSD
+              - text: 
+              - generic [ref=e40]: X
+            - link " Yelp" [ref=e41] [cursor=pointer]:
+              - /url: http://www.yelp.com/biz/all-american-plumbing-inc-poway
+              - text: 
+              - generic [ref=e42]: Yelp
+          - generic [ref=e44]:
+            - generic [ref=e45]: Call Us Today! 858-842-7876
+            - generic [ref=e46]: "|"
+            - link "allamericanplumbingsd@gmail.com" [ref=e48] [cursor=pointer]:
+              - /url: mailto:allamericanplumbingsd@gmail.com
+        - generic [ref=e49]:
+          - generic [ref=e52]:
+            - link "All American Plumbing Logo" [ref=e53] [cursor=pointer]:
+              - /url: https://plumbing-sandiego.net/
+              - img "All American Plumbing Logo" [ref=e54]
+            - generic [ref=e56]:
+              - link "All American Plumbing" [ref=e58] [cursor=pointer]:
+                - /url: https://www.yelp.com/biz/all-american-plumbing-poway?utm_medium=biz_embedded_content&utm_source=biz_badge
+                - img "All American Plumbing" [ref=e59]
+              - generic [ref=e60]:
+                - heading "All American Plumbing, Inc" [level=3] [ref=e61]
+                - link "Schedule a FREE Estimate OR Inspection" [ref=e62] [cursor=pointer]:
+                  - /url: "#fancyboxID-1"
+                  - generic [ref=e63]: Schedule a FREE Estimate OR Inspection
+          - generic [ref=e65]:
+            - navigation "Main Menu" [ref=e66]:
+              - list [ref=e67]:
+                - listitem [ref=e68] [cursor=pointer]:
+                  - link "Home" [ref=e69]:
+                    - /url: https://plumbing-sandiego.net/
+                    - generic [ref=e70]: Home
+                    - generic [ref=e72]: 
+                - listitem [ref=e73] [cursor=pointer]:
+                  - link "Plumbing Services" [ref=e74]:
+                    - /url: https://plumbing-sandiego.net/plumbing-services-san-diego/
+                    - generic [ref=e75]: Plumbing Services
+                    - generic [ref=e77]: 
+                - listitem [ref=e78] [cursor=pointer]:
+                  - link "Plumbing Repair" [ref=e79]:
+                    - /url: https://plumbing-sandiego.net/plumbing-repair-services-san-diego/
+                    - generic [ref=e80]: Plumbing Repair
+                - listitem [ref=e81] [cursor=pointer]:
+                  - link "Water Heaters" [ref=e82]:
+                    - /url: https://plumbing-sandiego.net/water-heater-services-in-san-diego/
+                    - generic [ref=e83]: Water Heaters
+                    - generic [ref=e85]: 
+                - listitem [ref=e86] [cursor=pointer]:
+                  - link "Leak Detection" [ref=e87]:
+                    - /url: https://plumbing-sandiego.net/leak-detection-san-diego/
+                    - generic [ref=e88]: Leak Detection
+                - listitem [ref=e89] [cursor=pointer]:
+                  - link "Recent Projects" [ref=e90]:
+                    - /url: https://plumbing-sandiego.net/recent-projects/
+                    - generic [ref=e91]: Recent Projects
+            - text: MENU   - - -  - - - - - - - - - - - -  - -
+    - main [ref=e92]:
+      - generic [ref=e96]:
+        - generic [ref=e98]:
+          - generic [ref=e101]:
+            - heading "San Diego Plumbing Services and Repair" [level=2] [ref=e102]
+            - paragraph [ref=e103]
+            - paragraph [ref=e104]: Are You Looking For Plumbing Services and Repairs in San Diego? All of the best plumbers in the business are employed at All American Plumbing, San Diego!
+          - generic [ref=e107]:
+            - paragraph [ref=e111]: At All American Plumbing we believe that when we have the most qualified employees working for us, we can provide the highest quality service to our clients. To be part of the All American Plumbing San Diego team, our employees must meet a very specific criteria of qualifications, they must be highly trained, safety certified and dedicated to providing Honest, Reliable, high quality service to our customers. All American Plumbing is well known throughout San Diego for providing high quality work and for being one of the top trade employers in the city. We do not charge additional fees on the weekends.
+            - generic [ref=e113]:
+              - img "San Diego Plumbing Services" [ref=e117]
+              - paragraph [ref=e121]:
+                - strong [ref=e122]: We can handle your plumbing emergency!
+                - text: We offer 24hr emergency services. Whether it is a large leak, flooding in your home, or a botched gas line, we will make you our number 1 priority. We are always on call to take care of your plumbing needs.
+        - generic [ref=e124]:
+          - generic [ref=e126]:
+            - link "angieslist-button" [ref=e132] [cursor=pointer]:
+              - /url: http://www.angieslist.com/companylist/us/ca/poway/all-american-plumbing-inc.-reviews-8020037.htm
+            - paragraph [ref=e134]:
+              - link "Write a Review" [ref=e136] [cursor=pointer]:
+                - /url: http://my.angieslist.com/angieslist/review/8020037?id=8020037
+          - link "blue-seal" [ref=e144] [cursor=pointer]:
+            - /url: http://www.bbb.org/san-diego/business-reviews/plumbers/all-american-plumbing-inc-in-poway-ca-172007356
+          - img "consumers-choice-award-2012" [ref=e152]
+          - generic [ref=e155]:
+            - paragraph
+            - iframe [ref=e157]: head><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" /></head>:
+              
+        - heading "PLUMBING SERVICES" [level=3] [ref=e165]:
+          - link "PLUMBING SERVICES" [ref=e166] [cursor=pointer]:
+            - /url: https://plumbing-sandiego.net/plumbing-services-san-diego/
+        - heading "PLUMBING REPAIR" [level=3] [ref=e176]:
+          - link "PLUMBING REPAIR" [ref=e177] [cursor=pointer]:
+            - /url: https://plumbing-sandiego.net/plumbing-repair-services-san-diego/
+        - heading "WATER HEATERS" [level=3] [ref=e187]:
+          - link "WATER HEATERS" [ref=e188] [cursor=pointer]:
+            - /url: https://plumbing-sandiego.net/water-heater-services-in-san-diego/
+        - heading "LEAK DETECTION" [level=3] [ref=e198]:
+          - link "LEAK DETECTION" [ref=e199] [cursor=pointer]:
+            - /url: https://plumbing-sandiego.net/leak-detection-san-diego/
+        - heading "Our Service Area" [level=3] [ref=e207]
+        - heading "Testimonials" [level=3] [ref=e213]
+        - generic [ref=e215]:
+          - link "50 Dollars Off Service COUPON" [ref=e220] [cursor=pointer]:
+            - /url: https://plumbing-sandiego.net/50-off-service/
+            - img "coupon" [ref=e221]
+          - link "10 Percent OFF Service COUPON for Seniors & Military Personel" [ref=e226] [cursor=pointer]:
+            - /url: https://plumbing-sandiego.net/10-off-service/
+            - img "all american plimbing coupon" [ref=e227]
+        - generic [ref=e229]:
+          - generic [ref=e231]:
+            - generic [ref=e233]: All American Plumbing Video
+            - link "All American Plumbing video" [ref=e234] [cursor=pointer]:
+              - /url: https://www.youtube.com/watch?v=Et49FtS2hhE
+              - img "All American Plumbing video" [ref=e235]
+          - generic [ref=e237]:
+            - generic [ref=e239]: Request Service
+            - generic [ref=e240]:
+              - generic [ref=e241]:
+                - status
+                - list
+              - form "Contact form" [ref=e242]:
+                - paragraph [ref=e243]:
+                  - textbox "Name*" [ref=e245]
+                - paragraph [ref=e246]:
+                  - textbox "Email*" [ref=e248]
+                - paragraph [ref=e249]:
+                  - textbox "Phone" [ref=e251]
+                - paragraph [ref=e252]:
+                  - textbox "Message" [ref=e254]
+                - paragraph
+                - paragraph [ref=e255]:
+                  - button "Send" [ref=e256] [cursor=pointer]
+    - generic [ref=e257]:
+      - contentinfo [ref=e258]:
+        - generic [ref=e260]:
+          - generic [ref=e262]:
+            - heading "Main" [level=4] [ref=e263]
+            - list [ref=e265]:
+              - listitem [ref=e266]:
+                - link " Home" [ref=e267] [cursor=pointer]:
+                  - /url: https://plumbing-sandiego.net/
+              - listitem [ref=e268]:
+                - link " Plumbing Services" [ref=e269] [cursor=pointer]:
+                  - /url: https://plumbing-sandiego.net/plumbing-services-san-diego/
+              - listitem [ref=e270]:
+                - link " Plumbing Repair" [ref=e271] [cursor=pointer]:
+                  - /url: https://plumbing-sandiego.net/plumbing-repair-services-san-diego/
+              - listitem [ref=e272]:
+                - link " Leak Detection" [ref=e273] [cursor=pointer]:
+                  - /url: https://plumbing-sandiego.net/leak-detection-san-diego/
+              - listitem [ref=e274]:
+                - link " Water Heaters" [ref=e275] [cursor=pointer]:
+                  - /url: https://plumbing-sandiego.net/water-heater-services-in-san-diego/
+              - listitem [ref=e276]:
+                - link " Recent Projects" [ref=e277] [cursor=pointer]:
+                  - /url: https://plumbing-sandiego.net/recent-projects/
+              - listitem [ref=e278]:
+                - link " Blog" [ref=e279] [cursor=pointer]:
+                  - /url: https://plumbing-sandiego.net/blog/
+              - listitem [ref=e280]:
+                - link " Contact Us" [ref=e281] [cursor=pointer]:
+                  - /url: https://plumbing-sandiego.net/contact-us/
+          - generic [ref=e283]:
+            - heading "Our Location" [level=4] [ref=e284]
+            - iframe [ref=e286]
+          - generic [ref=e288]:
+            - heading "Hours of Operation" [level=4] [ref=e289]
+            - generic [ref=e291]:
+              - paragraph [ref=e292]
+              - paragraph [ref=e293]: We are available 24/7!
+          - generic [ref=e295]:
+            - heading "Contact Us" [level=4] [ref=e296]
+            - generic [ref=e298]:
+              - strong [ref=e299]: All American Plumbing, Inc
+              - text: License No. 986372
+              - paragraph
+              - generic [ref=e300]:
+                - text: 14260 Garden Rd unit A601, Poway, CA 92064
+                - text: "Phone: (858) 842-7876"
+      - contentinfo [ref=e301]:
+        - generic [ref=e305]:
+          - text: © 2026 All American Plumbing, Inc. All Rights Reserved | Designed and Marketed by
+          - link "Blackwood Industries" [ref=e306] [cursor=pointer]:
+            - /url: http://bwindustries.com/
+  - region "Go to Top":
+    - link " Go to Top":
+      - /url: "#"
+      - text: 
+      - generic: Go to Top
+  - iframe [ref=e309]:
+    

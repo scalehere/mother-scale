@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "agent-teams"
+		},
+		{
+			"path": "scale-lead-ops"
+		},
+		{
+			"path": "go-high-level"
+		},
+		{
+			"path": "meta-ads"
+		},
+		{
+			"path": "scale-business"
+		}
+	],
+	"settings": {}
+}

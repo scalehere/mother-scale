@@ -1,0 +1,16 @@
+# California Doors & Windows (CDW) — Brand Palette
+# Source: https://www.calidoorsandwindows.com/
+# Last updated: 2026-04-25
+
+YELLOW   #FFC72C    Primary accent — high-vis "contractor yellow"
+RED      #C8102E    Secondary accent — CTA / urgency
+BLACK    #000000    Primary text, logo
+WHITE    #FFFFFF    Background, reverse logo
+
+# Notes:
+# - HEX values for yellow/red are best-guess construction-trade standards.
+#   Verify against a printed business card, truck wrap, or vendor brand sheet
+#   before locking these into ad creative or print collateral.
+# - The website itself currently leans neutral (black/white/cream), so the
+#   yellow + red live in offline marketing assets (signage, vehicle wraps,
+#   flyers). Pull a sample if you have one and adjust.

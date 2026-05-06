@@ -1,0 +1,21 @@
+# California Doors & Windows (CDW) — Typography
+# Source: https://www.calidoorsandwindows.com/
+# Last updated: 2026-04-25
+
+PRIMARY (Headings, display)
+  Likely:  Playfair Display  (serif, elegant — used for hero H1s like
+           "California Doors & Windows Designed to Elevate Your Home")
+  Fallback stack: "Playfair Display", Georgia, "Times New Roman", serif
+
+SECONDARY (Body, UI, navigation)
+  Likely:  Inter  (geometric sans — used for nav, body copy, CTAs)
+  Fallback stack: Inter, -apple-system, "Segoe UI", Roboto, sans-serif
+
+# Notes:
+# - Confirmed by visual inspection of the live site only. I could not pull the
+#   compiled CSS bundle to verify @font-face declarations.
+# - To confirm: open the site in Chrome → DevTools → Computed → font-family
+#   on a heading and a body paragraph. Replace the "Likely" lines above with
+#   what shows up there.
+# - If they don't have a brand-specified font, Playfair + Inter is a safe,
+#   on-trend pairing that matches the current site aesthetic.

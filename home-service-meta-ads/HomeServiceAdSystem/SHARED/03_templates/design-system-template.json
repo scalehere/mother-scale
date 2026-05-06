@@ -1,0 +1,118 @@
+{
+  "design_system_version": "v2_footerless",
+  "description": "Locked design system shared across every static ad in every client. Loaded by Agent 9 before producing any AD-XXX.json. Footer-free for standard Meta ads. Brand-color slots are filled per-client from each client's Creative Bible.",
+
+  "canvas": {
+    "aspect_ratio": "4:5 vertical",
+    "dimensions_pixels": "1440x1800",
+    "platform_target": "Meta feed mobile-first",
+    "rationale": "4:5 is Meta's recommended feed format and earns ~20% more vertical screen on mobile vs 1:1 square."
+  },
+
+  "locked_zones_top_to_bottom": {
+    "zone_1_brand_mark": {
+      "height_percent": 8,
+      "height_pixels": "~145px",
+      "purpose": "Logo placeholder",
+      "ai_generates": false,
+      "composite_in_canva": true,
+      "spec": "EMPTY clean white card 360x140px positioned top-left with 60px margin. NO logo, no text, no icons. Real client logo PNG composited in post via Canva (10 seconds per ad)."
+    },
+    "zone_2_hero_visual_and_headline": {
+      "height_percent": 60,
+      "height_pixels": "~1080px",
+      "purpose": "The pitch — hero photo + headline + accent shapes",
+      "ai_generates": true,
+      "composite_in_canva": false,
+      "spec": "Concept-specific. AI generates the photo, the headline typography, eyebrows, attribution, subhead, fine print, and any decorative accents (diagonal slashes, halftone, dot patterns). Reference image (REF-XXX) drives layout DNA."
+    },
+    "zone_3_trust_strip": {
+      "height_percent": 11,
+      "height_pixels": "~200px",
+      "purpose": "Credibility row — 4 trust elements separated by accent hairlines",
+      "ai_generates": true,
+      "composite_in_canva": false,
+      "spec": "Single horizontal row of exactly 4 trust elements separated by 1px [PRIMARY ACCENT COLOR] vertical hairlines, on a semi-transparent dark panel rgba(0,0,0,0.65). Uppercase tracked-out white sans-serif 18-20pt, evenly spaced. Format: [BADGE 1] | [CREDENTIAL] | [DIFFERENTIATOR] | [PRE-QUALIFIER]."
+    },
+    "zone_4_cta_block_full_bleed": {
+      "height_percent": 21,
+      "height_pixels": "~375px",
+      "purpose": "The action — CTA button extends to bottom edge",
+      "ai_generates": true,
+      "composite_in_canva": false,
+      "spec": "Solid [CTA COLOR] rounded rectangle CTA button with bold white type. Centered horizontally. Generous breathing room above and below the button (8% canvas margin). Block extends full-bleed to the bottom edge of the canvas — NO reserved footer zone. Meta's platform CTA button + business name handle contact."
+    }
+  },
+
+  "footer_policy": {
+    "default": "NONE — standard Meta cold-traffic and warm-traffic ads have no baked-in footer. Zone 4 extends to bottom edge.",
+    "exceptions": "Flyer-mode / print-ready ads ONLY. For flyers, door hangers, mailers, partner placements: a separate branded footer asset (1440x125 transparent PNG) is composited in Canva. Built once per client during Agent 4's run and stored at /CLIENTS/[Client]/03_assets/branded_footer.png.",
+    "rationale": "Meta already shows business name + CTA button below the ad. A baked-in phone/URL footer is partially redundant and eats vertical space."
+  },
+
+  "brand_color_slots": {
+    "primary_accent_color": {
+      "default_value": "[load from client bible]",
+      "use_case": "Headline tags, hairline dividers, decorative accents, eyebrow lines",
+      "constraint": "Must be a single high-contrast color. Yellows, reds, oranges, deep blues all viable depending on client brand."
+    },
+    "cta_color": {
+      "default_value": "[load from client bible]",
+      "use_case": "CTA button background only",
+      "constraint": "Must contrast with primary accent and with white type. Reds and deep blues are most reliable for CTAs."
+    },
+    "structural_palette": {
+      "black": "#000000",
+      "white": "#FFFFFF",
+      "off_white": "#F8F9FB",
+      "constraint": "Locked across every client. Do not vary."
+    }
+  },
+
+  "typography_slots": {
+    "headlines": {
+      "default_options": ["Anton", "Druk Wide", "Bebas Neue"],
+      "specs": "Heavy uppercase condensed sans-serif. Per-client choice from Creative Bible Format sheet."
+    },
+    "subheads_and_taglines": {
+      "default": "italic serif OR italic clean sans for warmth",
+      "specs": "12-16pt italic. Slight italic slant for human-feel."
+    },
+    "body_and_trust_strip": {
+      "default": "Inter or Helvetica Now",
+      "specs": "Clean modern sans-serif. Trust strip uppercase tracked-out 18-20pt. Fine print 10-12pt light grey."
+    },
+    "handwritten_taglines": {
+      "default_options": ["Caveat", "Beth Ellen"],
+      "specs": "Italic handwritten script, 18-22pt. For founder-signature lines."
+    }
+  },
+
+  "ai_vs_canva_split": {
+    "ai_generates": [
+      "Zone 2: hero photo + headline + accent shapes + decorative elements",
+      "Zone 3: trust strip with all 4 elements rendered legibly",
+      "Zone 4: CTA button with copy"
+    ],
+    "composite_in_canva": [
+      "Zone 1: drop client logo PNG into top-left placeholder",
+      "Optional flyer-mode: drop branded footer overlay"
+    ],
+    "rationale": "AI image gen is unreliable on small text and on logo recreation. Generate everything large in AI; composite identity-locked elements (logo, exact phone number) in Canva."
+  },
+
+  "image_input_policy": {
+    "founder_portraits": "ALWAYS upload founder reference photo as image input alongside JSON. AI cannot lock likeness from text description alone.",
+    "specific_install_photos": "Upload as image input when concept calls for a SPECIFIC real install. Generic install scenes can be AI-generated.",
+    "logo_recreation": "NEVER attempt logo recreation in AI. Always composite real PNG in Canva.",
+    "handling": "Set 'image_input_required: true' in any AD JSON that needs reference photo input."
+  },
+
+  "quality_standards": {
+    "text_coverage_max_percent": 30,
+    "text_coverage_min_percent": 20,
+    "thumbnail_readability": "Headline must be legible at 200x250px thumbnail size",
+    "scroll_stop_element": "Every ad must have ONE primary scroll-stop element in zone 2 — a giant numeral, a face, or a high-contrast visual juxtaposition",
+    "z_pattern_hierarchy": "Eyes move top-left (logo) → top-right or center (headline) → mid (subhead) → lower-left (trust) → bottom-right (CTA). Layout must reward this scan path."
+  }
+}

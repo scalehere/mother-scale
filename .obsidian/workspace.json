@@ -1,0 +1,246 @@
+{
+  "main": {
+    "id": "489b63e52eeb6cc2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5e37fef6d858a62",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbdbe29810a6f6e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aios/ads-os/strategy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "strategy"
+            }
+          },
+          {
+            "id": "e1a3ac13c35fc5fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "scale-business/wiki/concepts/autonomous-improvement-loop.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "autonomous-improvement-loop"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b34f1b3320daf8e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "515dc85d22ba3e0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc40ec5f1c4e55c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5d0ac9f0cbb97d6a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0538f22e266f81ba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "549f84b3b0f4e1ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "1daa5141ada91ab1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06e77e653d31550b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "632f18d18963a8a9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "e51b395df34b2a01",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2f20320108ed3ae2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ca9c0a6695f85858",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "bbdbe29810a6f6e6",
+  "lastOpenFiles": [
+    "aios/ads-os/shoots/2026-05-06-victor-carlsbad-FULL-PLAN.md",
+    "aios/ads-os/scripts.md",
+    "aios/ads-os/product.md",
+    "aios/ads-os/icp.md",
+    "aios/ads-os/competitors.md",
+    "aios/ads-os/research/manus-spark-2026-05-05-v2-verbatim.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/top-performers/07-remodelers-referrals.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/top-performers/06-want-180k-anti-hustle.md",
+    "aios/ads-os/research/Competitor Intelligence Report_ Spark Marketing Agency.md",
+    "scale-business/wiki/analysis/scale-sd-ai-growth-system.md",
+    "scale-business/wiki/concepts/autonomous-improvement-loop.md",
+    "aios/ads-os/research/Spark Marketing Agency Competitive Intelligence Report 2",
+    "aios/ads-os/research/Spark Marketing Agency Competitive Intelligence Report 1",
+    "aios/ads-os/research/Spark Marketing Agency Competitive Intelligence Report",
+    "aios/ads-os/research/manus-spark-prompt.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/top-performers/05-dm-ads.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/top-performers/04-only-problem-leads.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/top-performers/03-1m-pool-builder.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/top-performers/02-500k-3-months.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/top-performers/01-good-system.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/angles/08-want-more-projects.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/angles/07-burned-by-agencies.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/angles/06-marketing-not-expense.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/angles/05-good-problem-leads.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/angles/04-still-relying-on-referrals.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/angles/03-anti-hustle.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/angles/02-data-led-revenue.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/angles/01-good-work-bad-system.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/_index.md",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/top-performers",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch/angles",
+    "aios/ads-os/creative-library/2026-05-05-spark-batch",
+    "aios/ads-os/skill-briefs",
+    "aios/ads-os/shoots",
+    "aios/ads-os/research",
+    "aios/ads-os/creative-library",
+    "home-service-meta-ads/HomeServiceAdSystem/SHARED/04_reference-library/REF-003/ref.png",
+    "home-service-meta-ads/HomeServiceAdSystem/SHARED/04_reference-library/REF-001/ref.png",
+    "home-service-meta-ads/HomeServiceAdSystem/SHARED/04_reference-library/REF-002/ref.png",
+    "home-service-meta-ads/HomeServiceAdSystem/CLIENTS/California Doors and Windows/00_intake/brand_assets/CDW_logo.png",
+    "home-service-meta-ads/HomeServiceAdSystem/CLIENTS/California Doors and Windows/03_assets/photos/mike_founder.png",
+    "home-service-meta-ads/HomeServiceAdSystem/CLIENTS/California Doors and Windows/03_assets/photos/before_after_001.png",
+    "scale-lead-ops/node_modules/@playwright/mcp/node_modules/playwright-core/lib/vite/traceViewer/playwright-logo.svg",
+    "scale-lead-ops/node_modules/@playwright/mcp/node_modules/playwright-core/lib/vite/recorder/playwright-logo.svg",
+    "scale-lead-ops/node_modules/@playwright/mcp/node_modules/playwright-core/lib/tools/dashboard/appIcon.png",
+    "scale-lead-ops/node_modules/@playwright/mcp/node_modules/playwright-core/lib/server/chromium/appIcon.png"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "ad_id": "AD-C_VAR-V1",
+  "concept_ref": "CONCEPT-C",
+  "concept_title": "10 Windows 40% Off",
+  "ref_pattern": "REF-003",
+  "ref_pattern_source": "Milele Motors 'New Year Offer / Flat 10% OFF' — top-center brand mark · sub-headline beneath logo · GIANT WHITE numeric centered with 'Flat' left and 'OFF' right · footer text · row of 3 vehicles on a reflective surface · blue sky-and-mountain background",
+  "client": "California Doors and Windows",
+  "mode": "CLONE_MODE",
+  "clone_adherence_target_pct": 99,
+  "variation_axis": "Background Mood (the only axis that varies across V1/V2/V3 per system designer directive 2026-04-26 — overrides default Hero Photo Subject axis)",
+  "variation_axis_value": "V1 — WARM SoCal home exterior background (home-improvement intent anchor). Soft-focused beige stucco wall with a hint of tile roof in the upper portion, soft warm late-morning light. Shallow depth of field — windows in foreground sharp, home blurred bokeh-d backdrop. Color palette: warm beige, cream, hints of terracotta. NO cool blue. Hero subject (row of 3 windows on reflective pavement) and brand-color hierarchy are LOCKED IDENTICAL to V2 and V3.",
+
+  "ai_generates": [
+    "warm SoCal home exterior background — soft-focused beige stucco wall, hint of tile roof in upper portion, soft warm late-morning light, shallow DOF (background blurred / bokeh-d), warm beige + cream + terracotta palette, NO cool blue",
+    "sub-headline 'Limited-Time Offer' beneath top-center logo zone — CDW Red #C8102E bold sans-serif (LOCKED IDENTICAL across V1/V2/V3)",
+    "thin horizontal CDW Yellow #FFC72C accent line beneath the 'Limited-Time Offer' sub-headline — separator before the giant numeric (LOCKED IDENTICAL across V1/V2/V3)",
+    "soft sunburst halo in CDW Yellow #FFC72C radiating warm light from BEHIND the giant white '40%' — primary CDW brand-color signal (LOCKED IDENTICAL across V1/V2/V3)",
+    "GIANT WHITE '40%' centered, monumental scale, with subtle dark drop shadow to push it off the background and create depth (LOCKED IDENTICAL across V1/V2/V3)",
+    "thickened CDW Yellow #FFC72C stroke through the '%' character — read as a deliberate brand element, prominent (LOCKED IDENTICAL across V1/V2/V3)",
+    "'Flat' to the immediate left of the giant '40%', 'OFF' to the immediate right — both at smaller scale than the numeral (LOCKED IDENTICAL across V1/V2/V3)",
+    "thin warm-translucent band beneath the giant numeric, carrying the footer text in BOLD BLACK sans-serif: 'Flat 40% OFF — On 10-Window Orders' (LOCKED IDENTICAL across V1/V2/V3)",
+    "row of 3 windows across the very bottom edge of the frame on a smooth reflective pavement surface, deepened slightly to anchor the bottom-of-frame hierarchy (LOCKED IDENTICAL across V1/V2/V3 — hero subject is no longer the variation axis)",
+    "compliance fine-print line at the very bottom edge in dark grey / black sans-serif for legibility against the warm exterior background (LOCKED IDENTICAL across V1/V2/V3)"
+  ],
+  "composite_in_canva": [
+    "top-center brand mark — CDW logo composited in Canva post-generation (NEVER AI-generated). The AI pass renders this area as clean negative space — natural continuation of the surrounding background, NO placeholder box, NO dashed outline, NO white card, NO visible zone marker. Per locked agent guardrails: 'clean negative space for Canva logo composite.'"
+  ],
+  "image_input_required": false,
+  "reference_photo_attachment_required": false,
+  "reference_photo_path": null,
+  "image_input_files": [],
+  "post_production_notes": "V1 is fully AI-generated except for the top-center logo placement which is a Canva composite post-pass — Agent 9 does NOT auto-generate logos. No real founder photo, no real install photo, no testimonial card. Concept C is offer-led. NEVER claim the AI-generated row of windows depicts actual CDW installs. The variation axis for Concept C is BACKGROUND MOOD ONLY — V1 uses a warm SoCal home exterior background; hero subject (row of 3 windows on reflective pavement) and brand-color hierarchy (yellow halo, red sub-headline, drop shadow on numeric, bold black footer band, dark compliance line, deepened reflective surface) are locked IDENTICAL across V1/V2/V3.",
+
+  "footer_policy": "NONE — standard Meta ad. Frame extends full-bleed to bottom edge. The compliance fine-print line sits at the bottom edge inside the AI-generated frame; there is no separate Canva-composited footer.",
+
+  "scene": {
+    "description": "Editorial offer-led 4:5 vertical with strong CDW brand integration. Top-center carries clean negative space where the CDW brand mark will be composited in Canva post-generation — render as natural continuation of the surrounding background, no placeholder box, no dashed outline, no white card, no visible zone marker. Directly beneath, a CDW-Red bold sans-serif sub-headline reads 'Limited-Time Offer'. A thin horizontal CDW-Yellow accent line sits beneath the sub-headline as a separator. The center of the frame is dominated by a soft sunburst halo in CDW Yellow #FFC72C radiating warm light from behind a GIANT WHITE '40%' — the numeral and percent symbol at monumental scale, with a subtle dark drop shadow pushing it off the background. The '%' character carries a thickened CDW-Yellow stroke. 'Flat' sits to the immediate left of the giant '40%' and 'OFF' to the immediate right, both at smaller scale than the numeral. A thin warm-translucent band beneath the giant numeric carries the footer text in BOLD BLACK sans-serif: 'Flat 40% OFF — On 10-Window Orders'. Across the very bottom edge of the frame, three windows sit in a row on a smooth reflective pavement surface (deepened slightly), front-three-quarter view, varied window styles across the row (e.g., divided-light sash on the left, casement in the center, fixed-pane picture window on the right). The background is a soft-focused warm SoCal home exterior — beige stucco wall, hint of tile roof in the upper portion, soft warm late-morning light, shallow DOF (the home reads as bokeh-d backdrop while the windows in the foreground stay sharp). Warm beige + cream + terracotta palette throughout the background; NO cool blue. Compliance fine-print line in dark grey / black at the very bottom edge.",
+    "subject": "Row of 3 windows on a smooth deepened reflective pavement surface — different window styles for visual variety across the row (clone REF-003's three-vehicle row treatment, with windows replacing SUVs). Generic / AI-gen — NOT a recognizable CDW install. NO person, NO founder. Hero subject is LOCKED IDENTICAL to V2 and V3.",
+    "setting": "WARM SoCal home exterior background — soft-focused beige stucco wall, hint of terracotta tile roof in the upper portion, soft warm late-morning light. Shallow DOF — the home reads as a bokeh-d backdrop, the windows in the foreground stay sharp. Warm beige + cream + terracotta palette. NO cool blue. Smooth reflective pavement surface across the bottom — the windows reflect into the surface (deepened slightly to anchor the bottom-of-frame hierarchy).",
+    "action": "Static — image-led; the typography IS the visual."
+  },
+
+  "style": {
+    "primary": "editorial offer-led typography with CDW brand-color integration overlay (yellow halo, red sub-headline, drop shadow on numeric, bold black footer band, dark compliance line) against a soft-focused warm SoCal home exterior background — clones REF-003's giant-numeric Milele Motors layout with a 1% structural flex on the BACKGROUND axis (warm SoCal exterior replaces REF-003's cool blue sky + mountain)",
+    "rendering_quality": "hyperrealistic photographic background and reflective surface; clean editorial type rendering; clean glass and frame finish on each window; subtle bokeh on the warm SoCal home backdrop",
+    "surface_textures": "smooth deepened reflective pavement (slight reflection enhancement vs. REF-003 to anchor bottom-of-frame hierarchy), clear glass panes on each window, clean white frame finish on each window, soft-focused beige stucco wall in the background, hint of terracotta tile roof in upper portion",
+    "lighting": "soft warm late-morning natural light ~4500–5000K, slightly warmer than REF-003's neutral daylight; even illumination across the windows in the foreground; warm directional cast on the stucco wall in the background"
+  },
+
+  "technical": {
+    "camera": {
+      "focal_length": "~35mm equivalent — REF-003 wide-aspect editorial composition",
+      "aperture": "shallow DOF on background (warm home exterior reads bokeh-d); deeper DOF on foreground (all three windows + the typography read sharp)",
+      "depth_of_field": "shallow on the background (warm SoCal home exterior bokeh-d); deep on the foreground subject row + typography",
+      "angle": "head-on, slightly above eye level — REF-003 convention"
+    },
+    "resolution": "1440x1800 mobile-first 4:5 vertical (Meta Feed / Reels / IG Feed)",
+    "rendering": "Editorial finish, clean restraint with strong CDW brand integration — premium-but-warm aesthetic per CDW design system. Never cheap-circular."
+  },
+
+  "materials": {
+    "skin": "N/A — no person in frame.",
+    "fabric": "N/A.",
+    "surfaces": "Three windows with clean white frames; clear glass panes; smooth deepened reflective pavement underneath; soft-focused warm beige stucco wall in the background; hint of terracotta tile roof in the upper portion.",
+    "transparency": "Glass shows soft warm reflection of the warm SoCal home exterior background; subtle deepened reflection of each window into the pavement surface."
+  },
+
+  "environment": {
+    "atmosphere": "Warm SoCal home exterior background — soft-focused, bokeh-d, warm beige + cream + terracotta palette, NO cool blue, never a textured retail-flier background.",
+    "time": "Late-morning natural light — soft, warm, even.",
+    "particles": "Faint warm dust haze in the background bokeh; no smoke, no atmospheric blue cast."
+  },
+
+  "composition": {
+    "perspective": "Head-on, slightly above eye level — REF-003 editorial offer-led composition.",
+    "framing": "Top-center brand mark zone (clean negative space — natural continuation of background, no placeholder box, no dashed outline, no white card; logo composited in Canva post-generation) · CDW-Red sub-headline beneath logo · thin yellow accent line beneath sub-headline · centered GIANT '40%' numeric with yellow sunburst halo behind, dark drop shadow, thickened yellow '%' stroke, 'Flat' left and 'OFF' right · warm-translucent band beneath numeric carrying bold black footer text · row of 3 windows across the very bottom edge on deepened reflective pavement · WARM SoCal home exterior background (bokeh-d) · dark compliance fine-print line at the very bottom edge. Frame extends full-bleed.",
+    "subject_placement": "Top ~8% — top-center logo zone (clean negative space, no visible marker; logo composited in Canva). Upper ~10% — CDW-Red sub-headline 'Limited-Time Offer' + thin yellow accent line below. Center ~50% — yellow sunburst halo + GIANT '40%' numeric (with drop shadow + thickened yellow '%' stroke) + 'Flat' / 'OFF' flanks. Lower-middle ~10% — warm-translucent band + bold black footer text 'Flat 40% OFF — On 10-Window Orders'. Bottom ~20% — row of 3 windows on deepened reflective pavement. Very bottom edge — dark compliance fine print.",
+    "ui_elements": {
+      "zone_1_logo_placeholder_top_center": "Clean negative space top-center, ~360x140 px footprint (or REF-003-equivalent), centered horizontally with 60-80px margin from canvas top edge — render as natural continuation of the surrounding background. NO placeholder box, NO dashed outline, NO white card, NO visible zone marker. The CDW logo will be composited in Canva post-generation; the AI pass should leave clean uninterrupted background here so the user does NOT have to erase a placeholder before compositing. REF-003 places the brand mark top-center, not top-left; the cloned creative honors that placement.",
+      "zone_2_sub_headline": "Directly beneath the logo zone, **CDW Red #C8102E bold sans-serif**, title-case: 'Limited-Time Offer'. Same placement and restrained scale as REF-003's 'New Year Offer'; the COLOR is a brand-color asset swap from REF-003's white treatment to CDW Red — the strong red against the background creates a visual anchor and is the secondary loudest element in the 4-level brand-color contrast hierarchy.",
+      "zone_2_yellow_accent_line": "Thin horizontal CDW Yellow #FFC72C accent line beneath the 'Limited-Time Offer' sub-headline — visual separator between the sub-headline and the giant numeric. Hairline weight; centered horizontally; modest length (~30–40% of canvas width).",
+      "zone_2_giant_numeric": "Soft sunburst halo in CDW Yellow #FFC72C radiating warm light from BEHIND a GIANT WHITE '40%' centered at monumental scale (numeral + percent symbol occupy ~upper 60% of the lower-middle frame after the logo + sub-headline + accent line). Display sans-serif at maximum readability. Subtle dark drop shadow pushes the white numeric off the warm SoCal home exterior background and creates depth. The '%' character carries a thickened CDW Yellow #FFC72C stroke — read as a deliberate brand element, prominent (NOT the near-invisible thin stroke of the prior generation).",
+      "zone_2_flanking_words": "'Flat' positioned immediately to the LEFT of the giant '40%' numeral, baseline-aligned to the visual midline of the numeral; 'OFF' positioned immediately to the RIGHT of the numeral, same baseline alignment. Both at smaller scale than the numeral itself, white display sans-serif, all-uppercase or title-case to match REF-003 cadence.",
+      "zone_2_footer_text": "Below the giant numeric and flanking words, single-line, **BOLD BLACK sans-serif on a thin warm-translucent band**: 'Flat 40% OFF — On 10-Window Orders'. The translucent band ensures legibility against the warm SoCal home exterior background; the bold black type is the secondary text-contrast element in the 4-level brand-color hierarchy. Same placement and rhythm as REF-003's 'Flat 10% OFF – On All Brands'.",
+      "zone_2_product_row_bottom": "Row of 3 windows across the very bottom edge of the frame on a smooth **deepened** reflective pavement surface — left window, center window, right window. Different window styles across the row (e.g., divided-light sash · casement · fixed-pane picture window) for visual variety mirroring REF-003's three different SUV silhouettes. Each window stands upright on the reflective surface; subtle deepened reflection beneath each. Hero subject is LOCKED IDENTICAL to V2 and V3.",
+      "compliance_fine_print": "Bottom edge of frame, ~10-12pt **dark grey / black sans-serif** (changed from REF-003's white/off-white treatment for legibility against the warm exterior background and consistency across V1/V2/V3 brand-color hierarchy), centered or left-aligned per typographic balance: 'Limited-time offer — see in-home estimate for details. CSLB #537570. Family-owned in Southern California since 1988.'"
+    }
+  },
+
+  "review_card": {
+    "execution_path": "none",
+    "note": "Concept C is offer-led; REF-003 has no review element. No review card, no testimonial, no rendered review."
+  },
+
+  "locked_copy_v1_v2_v3_identical": {
+    "headline": "NONE as a separately written line — the GIANT '40%' numeric IS the headline.",
+    "sub_headline": "Limited-Time Offer",
+    "giant_numeric_treatment": "Flat 40% OFF (with 'Flat' and 'OFF' flanking the giant '40%' at smaller scale)",
+    "footer_text": "Flat 40% OFF — On 10-Window Orders",
+    "trust_strip": "NONE",
+    "cta": "NONE",
+    "compliance_fine_print": "Limited-time offer — see in-home estimate for details. CSLB #537570. Family-owned in Southern California since 1988.",
+    "brand_color_lock_note": "Yellow halo behind 40%, red sub-headline 'Limited-Time Offer' (#C8102E), thickened yellow % stroke, yellow accent line under sub-headline, black footer copy on translucent band, dark drop shadow on 40%, dark compliance line. ALL of these brand-color and contrast elements are LOCKED IDENTICAL across V1/V2/V3 — they are NOT the variation axis. Only the background mood varies."
+  },
+
+  "clone_mode_swap_log": {
+    "ref_003_top_center_brand_mark_milele_motors_emblem": "CDW logo (Canva composite — Agent 9 does NOT auto-generate logos)",
+    "ref_003_sub_headline_new_year_offer_white": "'Limited-Time Offer' in CDW Red #C8102E bold sans-serif (color asset swap; placement and restrained scale preserved)",
+    "ref_003_giant_numeric_10_pct_white_on_blue": "GIANT WHITE '40%' with soft CDW Yellow #FFC72C sunburst halo behind, subtle dark drop shadow, thickened CDW Yellow #FFC72C stroke through the '%' character — same monumental scale, same centered placement, same flanking-words layout",
+    "ref_003_flat_left_of_number": "'Flat' kept verbatim",
+    "ref_003_off_right_of_number": "'OFF' kept verbatim",
+    "ref_003_footer_text_flat_10_off_on_all_brands_white": "'Flat 40% OFF — On 10-Window Orders' in BOLD BLACK sans-serif on a thin warm-translucent band — same single-line placement, same `Flat [N]% OFF — On [eligibility]` rhythm; eligibility floor (10-window orders) replaces 'On All Brands' (truthful per asset audit; avoids unverified multi-brand-dealer claim); color treatment swapped from white-on-blue to bold black on warm-translucent band for legibility against the warm SoCal exterior background",
+    "ref_003_row_of_3_suvs_bottom": "Row of 3 windows on a smooth DEEPENED reflective pavement surface — different window styles for visual variety mirroring three vehicle silhouettes. Hero subject LOCKED IDENTICAL across V1/V2/V3 (no longer the variation axis).",
+    "ref_003_reflective_pavement": "Kept and DEEPENED slightly to anchor the bottom-of-frame hierarchy",
+    "ref_003_blue_sky_and_mountain_background": "REPLACED with warm SoCal home exterior — soft-focused beige stucco wall, hint of terracotta tile roof in upper portion, soft warm late-morning light, shallow DOF, warm beige + cream + terracotta palette, NO cool blue. This is the V1 1% structural flex — the variation axis being tested across V1/V2/V3.",
+    "ref_003_brand_colors_white_on_blue": "Replaced with CDW brand-color hierarchy overlay applied IDENTICALLY across V1/V2/V3 — yellow halo behind giant numeric, red sub-headline, thickened yellow '%' stroke, yellow accent line beneath sub-headline, dark drop shadow on giant numeric, bold black footer on warm-translucent band, dark compliance line, deepened reflective pavement. Treated as system-designer-directed CDW brand-color asset swap (per Agent 9 CLONE MODE rules); NOT 1% structural flex.",
+    "ref_003_phone_business_identity": "NOT printed; CSLB compliance line carries business identity",
+    "ref_003_compliance_color": "Dark grey / black sans-serif (color asset swap from REF-003's white/off-white; legibility against the warm exterior background)"
+  },
+
+  "one_pct_flex_used": {
+    "structural_flex_applied": true,
+    "flex_count": 1,
+    "flex_notes": [
+      {
+        "element": "Background mood — V1 is the warm SoCal home exterior variant of the 3-variation BACKGROUND MOOD test",
+        "ref_value": "Cool blue sky gradient + faint distant mountain silhouettes (REF-003's editorial sky background)",
+        "cdw_value": "Warm SoCal home exterior — soft-focused beige stucco wall, hint of terracotta tile roof in upper portion, soft warm late-morning light, shallow DOF (background bokeh-d), warm beige + cream + terracotta palette, NO cool blue",
+        "justifications": [
+          "System designer 2026-04-26 directive: Concept C tests BACKGROUND MOOD as the variation axis (overrides default Hero Photo Subject axis).",
+          "V1 anchors home-improvement intent — 'this is the house your install belongs in' — for cold-prospect SoCal homeowner conversion.",
+          "Hypothesis: warm anchors (V1 + V2) outperform aspirational anchor (V3 control) for the priced offer.",
+          "V3 retains REF-003's strict cool blue + mountain background as the test control. V1 + V2 each consume the 1% flex slot for their warm-mood substitution."
+        ]
+      }
+    ],
+    "brand_color_overlay_note": "The CDW brand-color hierarchy overlay (yellow halo, red sub-headline, thickened yellow '%' stroke, yellow accent line, dark drop shadow on numeric, bold black footer band, dark compliance line, deepened reflective pavement) is applied IDENTICALLY across V1/V2/V3. It is treated as a system-designer-directed CDW brand-color asset swap per Agent 9 CLONE MODE rules — NOT counted as 1% structural flex. The 1% flex slot is reserved for the BACKGROUND MOOD axis."
+  },
+
+  "quality": {
+    "include": [
+      "Editorial restraint with strong CDW brand integration — premium-but-warm, never cheap-circular, never retail flier",
+      "Top-center brand mark zone rendered as clean negative space in the AI pass (uninterrupted background, no placeholder box, no dashed outline, no white card) — logo composited in Canva post-generation",
+      "Sub-headline 'Limited-Time Offer' in CDW Red #C8102E bold sans-serif beneath logo (LOCKED IDENTICAL across V1/V2/V3)",
+      "Thin horizontal CDW Yellow #FFC72C accent line beneath the sub-headline (LOCKED IDENTICAL across V1/V2/V3)",
+      "Soft sunburst halo in CDW Yellow #FFC72C behind the giant white '40%' (LOCKED IDENTICAL across V1/V2/V3)",
+      "GIANT WHITE '40%' centered at monumental scale with subtle dark drop shadow (LOCKED IDENTICAL across V1/V2/V3)",
+      "Thickened CDW Yellow #FFC72C stroke through the '%' character — prominent, deliberate brand element (LOCKED IDENTICAL across V1/V2/V3)",
+      "'Flat' to the LEFT of the numeral, 'OFF' to the RIGHT, both at smaller scale than the numeral",
+      "Footer text 'Flat 40% OFF — On 10-Window Orders' in BOLD BLACK sans-serif on a thin warm-translucent band (LOCKED IDENTICAL across V1/V2/V3)",
+      "Row of 3 windows on a smooth DEEPENED reflective pavement surface across the very bottom edge (hero subject LOCKED IDENTICAL across V1/V2/V3 — no longer the variation axis)",
+      "Different window styles across the row for visual variety mirroring REF-003's three vehicle silhouettes",
+      "WARM SoCal home exterior background — soft-focused beige stucco wall, hint of terracotta tile roof in upper portion, soft warm late-morning light, shallow DOF (background bokeh-d), warm beige + cream + terracotta palette",
+      "Compliance fine-print line at the very bottom edge in DARK GREY / BLACK sans-serif (LOCKED IDENTICAL across V1/V2/V3) with 'Limited-time offer — see in-home estimate for details. CSLB #537570. Family-owned in Southern California since 1988.'",
+      "Vague-terms disclaimer visible at TWO reading heights: sub-headline ('Limited-Time Offer') AND fine print ('Limited-time offer — see in-home estimate for details')",
+      "Premium magazine-cover restraint with structural CDW brand-color anchoring — typography is the visual"
+    ],
+    "avoid": [
+      "Auto-generating CDW logo in the top-center brand mark zone (Canva composite only)",
+      "Cheap-circular / retail-flier aesthetic",
+      "Adding any 'starting from $X' price language",
+      "Adding bare 'lifetime warranty' language",
+      "Adding 'today only' urgency language",
+      "Adding generic 'energy efficient' claims",
+      "Adding any countdown timer or calendar date",
+      "Adding any person, founder portrait, or installer (V1/V2/V3 of Concept C are offer-led, no person)",
+      "Adding any testimonial / review card / pull-quote",
+      "Cool blue background, mountain silhouettes, atmospheric blue haze (that's V3 — the control variant). V1's background is warm SoCal home exterior; cool blue is forbidden in V1.",
+      "Replacing the row of 3 windows with doors or mixed assets (hero subject is LOCKED across V1/V2/V3)",
+      "Modifying the brand-color hierarchy (yellow halo, red sub-headline, thickened yellow '%' stroke, yellow accent line, drop shadow on numeric, bold black footer band, dark compliance line, deepened reflective pavement) — all of these are LOCKED IDENTICAL across V1/V2/V3 and are NOT the variation axis",
+      "Reverting sub-headline 'Limited-Time Offer' to white (LOCKED at CDW Red #C8102E bold sans-serif)",
+      "Reverting footer 'Flat 40% OFF — On 10-Window Orders' to white sans-serif (LOCKED at bold black on warm-translucent band)",
+      "Reverting compliance line to white/off-white (LOCKED at dark grey / black sans-serif)",
+      "Any banned phrase (elevate, transform, unlock, leverage, premium experience, in the realm of, uncompromising, timeless design, precision-crafted, refined home solutions)",
+      "Any 25C / federal-tax-credit reference",
+      "Any brand-dealer claim (Milgard / Andersen / Anlin) — footer text MUST read 'On 10-Window Orders' NOT 'On All Brands'",
+      "Heavy filter, Instagram color grade, exclamation marks, all-caps SHOUTING in supporting copy",
+      "Any 'Milele Motors' wordmark trace",
+      "Crossing the giant numeric over the row of windows or over the sub-headline / accent line"
+    ],
+    "reference_standard": "Inspired by REF-003 (Milele Motors offer-led layout) with CDW brand-color hierarchy overlay applied per system designer 2026-04-26 directive. Visual quality bar: editorial sale graphics from premium retailers (heritage-brand annual-sale spreads — Brooks Brothers, Mr Porter, Aesop, Le Labo), single-issue magazine covers (The New Yorker subscription drops, Monocle issue announcements, NYT magazine-cover treatments). Mood per CDW design system: premium-but-warm — make a $14K–$22K project feel earned, not discounted. V1's warm SoCal exterior background should feel like a home a SoCal homeowner would recognize as their own."
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "image_type": "advertisement_with_review_overlay",
+  "scene_description": "Promotional image for a home improvement company featuring a worker carrying a window frame outdoors, combined with a Google customer review and branding elements.",
+  "objects": [
+    {
+      "type": "person",
+      "attributes": {
+        "gender": "male",
+        "role": "technician/worker",
+        "pose": "walking away from camera while carrying a window frame",
+        "clothing": [
+          "light gray long-sleeve shirt with company logo on back",
+          "dark pants",
+          "tool belt"
+        ]
+      }
+    },
+    {
+      "type": "window_frame",
+      "attributes": {
+        "material": "metal/frame with glass",
+        "position": "left side, being carried by worker",
+        "state": "intact, likely for installation"
+      }
+    },
+    {
+      "type": "tool_belt",
+      "attributes": {
+        "worn_by": "worker",
+        "contents": [
+          "tools (not individually distinguishable)"
+        ]
+      }
+    },
+    {
+      "type": "vehicle",
+      "attributes": {
+        "kind": "work truck/van",
+        "position": "left background",
+        "state": "parked, partially visible"
+      }
+    },
+    {
+      "type": "environment",
+      "attributes": {
+        "setting": "outdoor residential area",
+        "elements": [
+          "trees",
+          "driveway or street",
+          "house structures"
+        ]
+      }
+    },
+    {
+      "type": "review_card",
+      "attributes": {
+        "platform": "Google",
+        "reviewer_name": "Tony Wallace",
+        "rating": 5,
+        "time_posted": "4 weeks ago",
+        "text": "Salesman was very nice and knowledgeable and gave us a great price. Beat four other quotes that we got, And I was looking for the best value not the lowest price. Installation was fast trouble free and very quick. The installation crew went out of their way to help me out and make everything go trouble-free and easy. It's been 6 months now and we are very happy with the product and the Service. We bought these windows mainly to reduce noise. And they did a very good job of that and they looked great. I would definitely recommend Brothers to anybody that is looking to upgrade their windows."
+      }
+    },
+    {
+      "type": "logo",
+      "attributes": {
+        "name": "Google",
+        "position": "top right of review card"
+      }
+    },
+    {
+      "type": "rating_stars",
+      "attributes": {
+        "count": 5,
+        "color": "yellow",
+        "associated_with": "review"
+      }
+    },
+    {
+      "type": "badge",
+      "attributes": {
+        "shape": "circular seal",
+        "text": "30 YEARS",
+        "description": "Brothers Home Improvement anniversary badge",
+        "color_scheme": [
+          "green",
+          "white"
+        ]
+      }
+    },
+    {
+      "type": "company_logo",
+      "attributes": {
+        "name": "Brothers Home Improvement",
+        "subcategory": "Windows & Doors",
+        "position": "bottom right",
+        "colors": [
+          "green",
+          "white"
+        ]
+      }
+    },
+    {
+      "type": "text_elements",
+      "attributes": {
+        "categories": [
+          "review text",
+          "branding text",
+          "badge text"
+        ]
+      }
+    }
+  ]
+}

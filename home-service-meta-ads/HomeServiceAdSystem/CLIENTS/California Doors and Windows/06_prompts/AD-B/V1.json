@@ -1,0 +1,169 @@
+{
+  "ad_id": "AD-B_VAR-V1",
+  "concept_ref": "CONCEPT-B",
+  "concept_title": "Before/After",
+  "ref_pattern": "REF-002",
+  "ref_pattern_source": "BEFORE/AFTER 40% Spring Special — black-line-1 + red-line-2 ALL CAPS headline · 50/50 horizontal BEFORE/AFTER window split · yellow rectangular BEFORE/AFTER badges · Google Business Review badge top-right with 5.0 stars",
+  "client": "California Doors and Windows",
+  "mode": "CLONE_MODE",
+  "clone_adherence_target_pct": 99,
+  "variation_axis": "Hero Photo Subject (the side-by-side BEFORE/AFTER pair)",
+  "variation_axis_value": "V1 — REAL CDW install: `before_after_001.png` attached at generation. NO Path D, NO AI for V1.",
+
+  "ai_generates": [
+    "zone_2 BEFORE/AFTER 50/50 horizontal split — generator composites the attached `before_after_001.png` into the layout slot",
+    "two-line ALL CAPS headline at top of frame — line 1 BLACK, line 2 RED",
+    "yellow rectangular BEFORE/AFTER badges (one per panel, bottom-left of left panel and bottom-right of right panel)",
+    "Google Business Review badge in the top-right corner (or Houzz fallback if user attaches a Houzz badge)",
+    "compliance fine-print line at bottom edge"
+  ],
+  "composite_in_canva": [
+    "zone_1 logo strip — CDW logo composited in Canva post-generation per locked design system zone_1 spec (top-left, 360x140 px footprint, 60px margin from edges). The AI pass renders this area as clean negative space — natural continuation of the surrounding frame, NO placeholder box, NO dashed outline, NO white card, NO visible zone marker. Logo is NEVER AI-generated. REF-002 has no separate top-of-frame wordmark; the locked CDW design-system zone 1 logo strip applies."
+  ],
+  "image_input_required": true,
+  "reference_photo_attachment_required": true,
+  "reference_photo_path": "/CLIENTS/California Doors and Windows/03_assets/photos/before_after_001.png",
+  "image_input_files": [
+    {
+      "path": "/CLIENTS/California Doors and Windows/03_assets/photos/before_after_001.png",
+      "purpose": "REAL CDW install — side-by-side BEFORE/AFTER window. Generator composites this image into the BEFORE/AFTER 50/50 split slot. The 'before' half = left panel; the 'after' half = right panel. Production audit per asset audit Section 3 must complete before generation: reflection cleanup on right panel, framing tightening, anonymization (no readable house numbers / street signs), homeowner consent for use of install imagery."
+    },
+    {
+      "path": "[user-supplied CDW Google Business Review badge image, OR Houzz 5.0 fallback]",
+      "purpose": "Top-right corner Google Business Review badge with CDW's actual rating + 5-star row. Fallback: Houzz 5.0 badge if no qualifying Google rating is available — CDW is Best of Houzz 2026 (Service Excellence) and 2025."
+    }
+  ],
+  "post_production_notes": "User attaches before_after_001.png and CDW Google Business Review badge (or Houzz 5.0 fallback) at image-generation time. Generator composites the BEFORE/AFTER pair into the layout slot per REF-002 50/50 split rhythm. CDW logo composited in Canva post-generation in the zone_1 top-left area — never AI-generated. The zone_1 top-left area renders as clean negative space in the AI pass (no placeholder box, no dashed outline, no white card) so the user can drop the logo directly without erasing a placeholder first.",
+
+  "footer_policy": "NONE — standard Meta ad. Zone 4 fine-print compliance line sits at bottom edge; full-bleed below.",
+
+  "scene": {
+    "description": "Direct-frontal BEFORE/AFTER 50/50 horizontal split occupies the middle of the frame. A two-line ALL CAPS headline anchors the top of the frame: line 1 BLACK ('TIRED OF YOUR OLD WINDOWS?'), line 2 RED ('GET 40% OFF — LIMITED TIME'). The left panel shows the BEFORE — peeling old window frame in an existing exterior opening; the right panel shows the AFTER — fresh white-frame divided-light window in the same opening. Yellow rectangular BEFORE/AFTER badges sit at the bottom corners of each panel (bottom-left of left panel = BEFORE; bottom-right of right panel = AFTER). A Google Business Review badge with CDW's actual rating + 5-star row sits in the top-right corner. Compliance fine-print line at the bottom edge. NO person, NO founder. Hero is the photo pair.",
+    "subject": "REAL CDW install — side-by-side BEFORE/AFTER window pair from `before_after_001.png`. Left = peeling original frame; right = fresh white-frame divided-light installation in the same opening.",
+    "setting": "Existing residential exterior wall around a window opening — beige siding visible on both panels matching the source `before_after_001.png` asset.",
+    "action": "Static — image-led; the photo IS the proof."
+  },
+
+  "style": {
+    "primary": "direct-response BEFORE/AFTER promo with cloned REF-002 headline rhythm and yellow rectangular badge treatment",
+    "rendering_quality": "hyperrealistic photographic on the BEFORE/AFTER panels (real CDW install attached, generator composites without re-rendering the install itself); type and badge layer rendered cleanly",
+    "surface_textures": "weathered paint texture on BEFORE frame, fresh white-frame finish on AFTER frame, beige siding consistent across both panels",
+    "lighting": "natural daylight consistent across both panels (matches source `before_after_001.png` lighting); no Instagram filter, no heavy color grade"
+  },
+
+  "technical": {
+    "camera": {
+      "focal_length": "panel composition matches `before_after_001.png` source — typically ~35-50mm equivalent",
+      "aperture": "panels read sharp; deep enough DOF that frame and surrounding wall are in focus",
+      "depth_of_field": "deep — both panels read with full clarity",
+      "angle": "head-on, square to wall — REF-002 BEFORE/AFTER 50/50 split convention"
+    },
+    "resolution": "1440x1800 mobile-first 4:5 vertical (Meta Feed / Reels / IG Feed)",
+    "rendering": "Editorial finish with the image-led restraint of REF-002. Real-photo authenticity in the panels; clean type layer; clean badge layer."
+  },
+
+  "materials": {
+    "skin": "N/A — no person in frame.",
+    "fabric": "N/A.",
+    "surfaces": "BEFORE: weathered/peeling paint on the existing frame; aged sash; reflective glass with slightly less clarity. AFTER: clean white frame finish; divided-light grid pattern; fresh sash; clear reflective glass.",
+    "transparency": "AFTER glass shows clean reflection consistent with daylight scene; BEFORE glass shows slightly degraded reflection consistent with weathered original."
+  },
+
+  "environment": {
+    "atmosphere": "Outdoor residential exterior; real CDW install context per source asset.",
+    "time": "Time-of-day matches source `before_after_001.png` (typically mid-morning to early-afternoon natural light).",
+    "particles": "None — clean image-led aesthetic."
+  },
+
+  "composition": {
+    "perspective": "Head-on, square to wall — BEFORE/AFTER 50/50 horizontal split per REF-002.",
+    "framing": "Top of frame — two-line ALL CAPS headline (line 1 BLACK, line 2 RED). Middle of frame — 50/50 horizontal BEFORE/AFTER panel split with thin vertical gutter rule (optional; per REF-002 minimal-gutter convention). Yellow rectangular BEFORE/AFTER badges at panel bottom corners. Top-right — Google Business Review badge. Bottom edge — compliance fine-print line. Frame extends full-bleed.",
+    "subject_placement": "BEFORE panel = left ~50%; AFTER panel = right ~50%; identical aspect and crop logic per REF-002.",
+    "ui_elements": {
+      "zone_1_logo_placeholder": "Clean negative space 360x140 px top-left, 60px margin from edges — render as natural continuation of the surrounding frame. NO placeholder box, NO dashed outline, NO white card, NO visible zone marker. The CDW logo will be composited in Canva post-generation; the AI pass should leave clean uninterrupted background here so the user does NOT have to erase a placeholder before compositing. The locked CDW design-system zone_1 spec applies (REF-002's frame has no top wordmark; CDW's locked zone 1 logo strip is the brand-fit improvement).",
+      "zone_2_headline_line_1": "'TIRED OF YOUR OLD WINDOWS?' — ALL CAPS, BLACK, bold sans-serif (e.g., heavy weight Inter Bold or equivalent), large display scale. Anchors top of frame above the BEFORE/AFTER split. Identical word order, casing, and punctuation to REF-002 line 1.",
+      "zone_2_headline_line_2": "'GET 40% OFF — LIMITED TIME' — ALL CAPS, RED (CDW warm-red #C8102E), bold sans-serif, same display scale as line 1. Sits directly beneath line 1. Em-dash em-dashes the offer from the urgency frame; matches REF-002 line 2 rhythm with 1% flex (see one_pct_flex_used).",
+      "zone_2_before_panel_left_50pct": "Left half of `before_after_001.png` composite — 'before' window with weathered/peeling frame, aged sash, slightly degraded glass.",
+      "zone_2_after_panel_right_50pct": "Right half of `before_after_001.png` composite — 'after' window with fresh white-frame divided-light install in the same opening.",
+      "zone_2_before_badge": "Yellow rectangular badge with bold black sans-serif type 'BEFORE' — bottom-left corner of LEFT panel. Identical placement and color logic to REF-002. Yellow may shift to CDW mustard-yellow #FFC72C within the brand-color swap budget (NOT 1% flex).",
+      "zone_2_after_badge": "Yellow rectangular badge with bold black sans-serif type 'AFTER' — bottom-right corner of RIGHT panel. Identical placement and color logic to REF-002. Yellow may shift to CDW mustard-yellow #FFC72C.",
+      "zone_2_google_business_review_badge": "Top-right corner overlay — Google Business Review badge with CDW's actual rating + 5 gold-star row. User attaches the badge image (Path 1 — screenshot attachment) at generation time. Fallback: Houzz 5.0 badge if no qualifying Google rating is available.",
+      "compliance_fine_print": "Bottom edge of frame, ~10-12pt soft-grey or off-white sans-serif: 'Limited-time offer — see in-home estimate for details. CSLB #537570. Family-owned in Southern California since 1988.'"
+    }
+  },
+
+  "review_card": {
+    "execution_path": "path_1_screenshot_attachment",
+    "note": "Concept B's review element is a Google Business Review BADGE (rating + star row), NOT a full review card with reviewer-named body text. User attaches the badge / screenshot at generation. No verbatim reviewer name or body is rendered in this concept (REF-002 carries only the rating badge).",
+    "user_attachment_required": true,
+    "attachment_anonymization_notes": "Google Business Review badge displays platform rating + star row only — no individual reviewer name or body text. No anonymization rendering required at the JSON level; the platform badge is a numeric/rating mark, not a named-reviewer screenshot."
+  },
+
+  "locked_copy_v1_v2_v3_identical": {
+    "headline_line_1_black_all_caps": "TIRED OF YOUR OLD WINDOWS?",
+    "headline_line_2_red_all_caps": "GET 40% OFF — LIMITED TIME",
+    "sub_headline": "NONE",
+    "trust_strip": "NONE as a separate text element — the trust strip is the visual Google Business Review badge in the top-right corner.",
+    "cta": "NONE",
+    "compliance_fine_print": "Limited-time offer — see in-home estimate for details. CSLB #537570. Family-owned in Southern California since 1988."
+  },
+
+  "clone_mode_swap_log": {
+    "ref_002_headline_line_1_tired_of_your_old_windows": "Kept verbatim — direct-response question hook preserved",
+    "ref_002_headline_line_2_get_40_off_with_our_spring_special": "1% FLEX → 'GET 40% OFF — LIMITED TIME' (see one_pct_flex_used)",
+    "ref_002_before_photo_left_panel": "Left half of before_after_001.png — REAL CDW install (peeling old frame)",
+    "ref_002_after_photo_right_panel": "Right half of before_after_001.png — REAL CDW install (fresh white-frame divided-light)",
+    "ref_002_before_after_badges_yellow_rectangle_black_text": "Same yellow rectangle / black bold sans-serif type / identical placement; yellow may shift to CDW mustard-yellow #FFC72C within the brand-color swap budget",
+    "ref_002_google_business_review_badge_5_0": "User-attached CDW Google Business Review badge (or Houzz 5.0 fallback)",
+    "ref_002_brand_colors_generic_black_red_yellow": "CDW palette — sun-yellow #FFC72C + warm red #C8102E + off-white + soft black; line 2 red picks up CDW brand red rather than reference's generic red",
+    "ref_002_phone_business_identity": "NOT printed; CSLB compliance line carries business identity"
+  },
+
+  "one_pct_flex_used": {
+    "structural_flex_applied": true,
+    "flex_count": 1,
+    "flex_notes": [
+      {
+        "element": "Headline line 2 word swap",
+        "ref_value": "GET 40% OFF WITH OUR SPRING SPECIAL",
+        "cdw_value": "GET 40% OFF — LIMITED TIME",
+        "justifications": [
+          "Seasonal language ('SPRING SPECIAL') dates the ad; if it runs into summer/fall it reads stale and forces a re-cut on a structurally fine clone.",
+          "Pairs with the locked vague-terms compliance language — the headline's 'LIMITED TIME' mirrors the compliance line ('Limited-time offer — see in-home estimate for details'), keeping the CYA disclosure visible at two reading heights (headline + fine print).",
+          "Word count parity — REF-002 line 2 has 7 words; the swap has 6 words; within the ±1–2 word 1% flex budget.",
+          "Direct-response energy preserved — question on line 1 + offer/urgency answer on line 2; black/red ALL CAPS rhythm; same line count."
+        ]
+      }
+    ]
+  },
+
+  "quality": {
+    "include": [
+      "Real-photo authenticity on the BEFORE/AFTER panels (real CDW install attached)",
+      "Headline line 1 BLACK ALL CAPS — 'TIRED OF YOUR OLD WINDOWS?'",
+      "Headline line 2 RED ALL CAPS — 'GET 40% OFF — LIMITED TIME'",
+      "Yellow rectangular BEFORE/AFTER badges with black bold sans-serif type at panel bottom corners",
+      "Google Business Review badge top-right corner (or Houzz 5.0 fallback)",
+      "Compliance fine-print line at bottom edge with 'Limited-time offer — see in-home estimate for details. CSLB #537570. Family-owned in Southern California since 1988.'",
+      "Zone_1 top-left rendered as clean negative space (uninterrupted background, no placeholder box, no dashed outline, no white card) — logo composited in Canva post-generation",
+      "Image-led restraint of REF-002 — the photo IS the proof"
+    ],
+    "avoid": [
+      "Auto-generating CDW logo in zone_1 top-left (Canva composite only — leave clean negative space in the AI pass)",
+      "Re-rendering the BEFORE/AFTER install panels (use the attached real photo, do not redraw)",
+      "Substituting AI-generated faux-before/after for V1 (this variation is the REAL CDW install)",
+      "Adding any 'starting from $X' price language",
+      "Adding bare 'lifetime warranty' language",
+      "Adding 'today only' urgency language",
+      "Adding generic 'energy efficient' claims",
+      "Any banned phrase (elevate, transform, unlock, leverage, premium experience, in the realm of, uncompromising, timeless design, precision-crafted, refined home solutions)",
+      "Any 25C / federal-tax-credit reference",
+      "Any brand-dealer claim (Milgard / Andersen / Anlin)",
+      "Heavy filter, Instagram color grade, luxury-mansion staging",
+      "Adding a CTA bar (REF-002 has none, the clone inherits the restraint)",
+      "Crossing the headline line over the BEFORE/AFTER gutter",
+      "Rendering readable house numbers / street signs / specific neighborhood signage in the panels (anonymization required per asset audit Section 3)"
+    ],
+    "reference_standard": "Inspired by REF-002 (BEFORE/AFTER 40% Spring Special). Visual quality bar: heritage / restoration before/after spreads (museum restoration, classic-car restoration, leather-shoe resoling) + direct-response BEFORE/AFTER promo conventions. Mood per CDW design system photography_mood block: real, slightly imperfect (reflection artifacts read as authenticity), never staged-real-estate-glossy."
+  }
+}

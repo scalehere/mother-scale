@@ -1,0 +1,80 @@
+{
+  "image_type": "advertisement",
+  "brand": {
+    "name": "Milele Motors",
+    "position": "top_center",
+    "logo": {
+      "type": "symbol",
+      "description": "circular emblem with intersecting lines"
+    }
+  },
+  "objects": [
+    {
+      "type": "text",
+      "content": "New Year Offer",
+      "position": "upper_center",
+      "color": "white",
+      "style": "large, clean font"
+    },
+    {
+      "type": "text",
+      "content": "Flat 10% OFF",
+      "position": "center",
+      "color": "white",
+      "style": "very large, bold",
+      "layout": {
+        "number": "10",
+        "percentage_symbol": "%",
+        "additional_words": ["Flat", "OFF"]
+      }
+    },
+    {
+      "type": "text",
+      "content": "Flat 10% OFF – On All Brands",
+      "position": "bottom_center",
+      "color": "white",
+      "style": "medium size"
+    },
+    {
+      "type": "vehicle",
+      "subtype": "SUV",
+      "position": "bottom_left",
+      "color": "dark green",
+      "orientation": "front_three_quarter_view"
+    },
+    {
+      "type": "vehicle",
+      "subtype": "SUV",
+      "position": "bottom_center",
+      "color": "white",
+      "orientation": "front_three_quarter_view"
+    },
+    {
+      "type": "vehicle",
+      "subtype": "SUV",
+      "position": "bottom_right",
+      "color": "black",
+      "orientation": "front_three_quarter_view",
+      "style": "boxy design"
+    },
+    {
+      "type": "background",
+      "elements": [
+        {
+          "type": "sky",
+          "color_gradient": "blue",
+          "features": ["light clouds"]
+        },
+        {
+          "type": "mountains",
+          "position": "far_background",
+          "color": "faint blue/gray silhouette"
+        },
+        {
+          "type": "ground",
+          "surface": "smooth reflective pavement"
+        }
+      ]
+    }
+  ]
+}
